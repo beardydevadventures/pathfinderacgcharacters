@@ -1,0 +1,718 @@
+{
+    "characters": {
+        "bekah": {
+            "name": "Bekah",
+            "class": "Female Human Bard",
+            "description": "Bekah’s tribe is in constant struggle with her neighbors for control of the scant resources the deserts of Katapesh offer. A nomadic lifestyle makes keeping a social group together difficult, but Bekah’s brash and resolute demeanor draws battered clansmen to her side. When she’s leading others, she’s very direct about the dangers they’ll face, but she happily offers the survivors full shares of the riches they plunder. For Bekah, taking big risks earns great rewards.",
+            "favcard": "Your Choice",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Charisma +1"
+                    	},
+                    	{
+	                    	"name": "Diplomacy: Charisma +3"
+                    	},
+                    	{
+	                    	"name": "Divine: Charisma +1"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn, you may put an ally from your hand on top of your deck and draw the bottom card of your deck."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a weapon or a spell to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to a check by another character at your location (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your check)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                }
+				],
+				"troublemaker" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn, you may put an ally from your hand on top of your deck and draw the bottom card of your deck."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a weapon or a spell to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) to a check by another character at your location (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your check) (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>+3)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When another character at your location acquires a boon, he may give it to you."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When another character plays a blessing to add to your Charisma (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or Dexterity) check, add a d12 in place of the normal die."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you fail a check to acquire an ally, you may immediately explore again."
+	                }
+				],
+				"warchief" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn, you may put an ally from your hand on top of your deck and draw the bottom card of your deck."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a weapon or a spell to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) to a check by another character at your location (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your check)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>You may add 2 to your check to acquire a weapon (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or defeat a henchman) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or villain)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you play a blessing on a check by another character at your location, that character may recharge a random weapon from his discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you fail a check to defeat a barrier, you may immediately explore again."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "lem": {
+            "name": "Lem",
+            "class": "Male Halfling Bard",
+            "description": "Born a slave to human nobles in a land corrupted by devils, Lem was blessed with a quick wit that earned him easy work as an entertainer. He managed to escape from bondage, but had to leave friends and family behind. Now he fights to ensure that no one else has to bear the burdens that weigh upon his memory. His greatest weapons are his easy laugh, his repertoire of inspirational music and tales, and—when need be—his quick blade.",
+            "favcard": "Spell",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Charisma +2"
+                    	},
+                    	{
+	                    	"name": "Diplomacy: Charisma +2"
+                    	},
+                    	{
+	                    	"name": "Divine: Charisma +2"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>and after you reset your hand), you may discard 1 spell then add 1 spell from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) to a check by another character at your location. If the recharged card has the Healing trait, recharge a random card from your discard pile."
+	                }
+				],
+				"tent preacher" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>and after you reset your hand), you may discard 1 spell then add 1 spell from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) to a check by another character at your location. If the recharged card has the Healing trait, recharge a random card from your discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>Add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>4) to your check to recharge (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or acquire) a spell that has the Divine trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you play a blessing on a non-combat Wisdom or Charisma check, you may add a d12 in place of the normal die."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may recharge a spell that has the Divine trait to draw a card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you would recharge a card, you may shuffle it into your deck instead."
+	                }
+				],
+				"arcane tinkerer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the start of your turn (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>and after you reset your hand), you may discard 1 spell then add 1 spell from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) to a check by another character at your location. If the recharged card has the Healing trait, recharge a random card from your discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>Add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>4) to your check to recharge (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or acquire) a spell that has the Arcane trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you play a blessing on a non-combat Intelligence or Charisma check, you may add a d12 in place of the normal die."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may recharge a spell that has the Arcane trait to draw a card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you would recharge a card, you may shuffle it into your deck instead."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 5,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "meliski": {
+            "name": "Meliski",
+            "class": "Male Dwarf Bard",
+            "description": "Though Meliski usually seems half-drunk, his inebriation is only an act. His talent for deception puts opponents at ease, making them think he’s an easy mark. They later discover he’s led them right into his trap, usually after he’s taken all their gold. Meliski knows all the tricks to spot when someone else is cheating, especially while he’s busy cheating. He typically plays cards all night, or at least until the barkeep timidly begs him to leave so she can close up.",
+            "favcard": "Your Choice",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Disable: Dexterity +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Charisma +1"
+                    	},
+                    	{
+	                    	"name": "Diplomacy: Charisma +1"
+                    	},
+                    	{
+	                    	"name": "Divine: Charisma +1"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When a character at your location would fail a check, you may recharge a card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to allow her to reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or 2 dice). She must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "On your first exploration each turn, you may encounter the bottom card of your location deck instead of the top card. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>Then you may shuffle the location deck.)"
+	                }
+				],
+				"brawler" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When a character at your location would fail a check, you may recharge a card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to allow her to reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or 2 dice). She must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "On your first exploration each turn, you may encounter the bottom card of your location deck instead of the top card. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>Then you may shuffle the location deck.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>You may play 2 blessings on your combat check (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>and recharge them instead of discarding them)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>For your combat check, you may use your Strength skill + 1d6 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+1) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+2) and add the Melee trait; you may not play a weapon on the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you succeed at a combat check to defeat a monster, recharge a random card from your discard pile."
+	                }
+				],
+				"gambler" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When a character at your location would fail a check, you may recharge a card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to allow her to reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or 2 dice). She must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "On your first exploration each turn, you may encounter the bottom card of your location deck instead of the top card. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>Then you may shuffle the location deck.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>You may play up to 2 blessings on your combat check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When you (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or another character at your location) would fail a check by 1 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>2), you may bury a card from your hand (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or discard pile) to succeed."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you would banish, bury, or discard a card that has the Gambling trait, you may recharge it (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or shuffle it into your deck) instead."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "siwar": {
+            "name": "Siwar",
+            "class": "Female Human Bard",
+            "description": "Graceful, talented, and beautiful, Siwar has ingratiated herself into the highest courts of the River Kingdoms. She is knowledgeable in topics ranging from art to politics and is highly schooled in etiquette. Though she has a reputation for maintaining her associates’ discretion, Siwar secretly trades information. Two criminal and political groups protect her. Both keep her indiscretions secret—though neither one realizes Siwar works for anyone else.",
+            "favcard": "Ally",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Charisma +1"
+                    	},
+                    	{
+	                    	"name": "Diplomacy: Charisma +3"
+                    	},
+                    	{
+	                    	"name": "Divine: Charisma +1"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to a check by another character at your location. If the recharged card is an ally, put it on top of your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you attempt to defeat a barrier that has the Skirmish or the Task trait, you may use your Diplomacy skill in place of any listed skill for the check."
+	                }
+				],
+				"courtier" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to a check by another character at your location. If the recharged card is an ally, put it on top of your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you attempt to defeat a barrier that has the Skirmish or the Task trait, you may use your Diplomacy skill in place of any listed skill for the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>Add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>4) to your check to acquire an ally (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or any boon)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When another character at your location would banish or bury an ally for its power, he may put it in your discard pile instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When another character at your location acquires a boon, he may give it to you."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>If you encounter a bane that has the Task (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or Obstacle) trait, you may recharge any number of allies; for each ally recharged, add 1d6 to your checks to defeat the bane."
+	                }
+				],
+				"manipulator" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) to a check by (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>you or) another character at your location. If the recharged card is an ally, put it on top of your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you attempt to defeat a barrier that has the Skirmish or the Task trait, you may use your Diplomacy skill in place of any listed skill for the check. (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>Characters gain this power while at your location.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>Add 2 to any check to defeat a henchman (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or villain) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or a check to close a location) by another character at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you play a blessing on another character’s check, and that character succeeds, you may recharge the blessing instead of discarding it."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 0,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "item",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 5,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        }
+    },
+    "cards": [
+        {
+            "name": "Place Expansion Cards Here"
+        }
+    ]
+}

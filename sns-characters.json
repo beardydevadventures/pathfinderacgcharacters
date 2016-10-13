@@ -1,0 +1,2328 @@
+{	
+	"dice": [
+    	"d4",
+    	"d6",
+    	"d8",
+    	"d10",
+        "d12"
+    ],
+    "characters": {
+        "ranzak": {
+            "name": "Ranzak",
+            "class": "Male Goblin Raider",
+            "favcard": "None",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 3
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Disable: Dexterity +1"
+                    	},
+                    	{
+	                    	"name": "Stealth: Dexterity +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 0
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 1,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Survival: Wisdom +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 7,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"> +1</label>) to your check to acquire a boon."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you acquire a boon on your turn, roll 1d6; on a (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>3,) 4, 5, or 6, explore your location."
+	                }
+				],
+				"kleptomaniac" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 7,
+	                    "modAmt": 4
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" /><label for=\"profbox2\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"> +1</label>) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"> +1</label>) to your check to acquire a boon."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you acquire a boon on your turn, roll 1d6; on a (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>3,) 4, 5, or 6, explore your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\"/><label for=\"powbox3\"></label> When you close a location, add a plunder card from the box to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\"/><label for=\"powbox4\"></label> If another character at your location fails a check to acquire a boon, you may attempt a check to acquire it."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\"/><label for=\"powbox5\"></label>  When you receive plunder cards for successfully completing a scenario, you may banish any 1 of those cards and replace it with another plunder card from the box."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\"/><label for=\"powbox6\"></label> Discard a card from the blessings deck to explore your location."
+	                }
+				],
+				"wrecker" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 7,
+	                    "modAmt": 4
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" /><label for=\"profbox2\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If there is another character at your location, you may evade a bane; a random other character at your location encounters it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"> +1</label>) to your check to acquire a boon."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you acquire a boon on your turn, roll 1d6; on a (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>3,) 4, 5, or 6, explore your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\"/><label for=\"powbox3\"></label> Recharge a card to add 2d4 to your check to defeat a barrier or a henchman, then discard the top 1d4 cards from your deck."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\"/><label for=\"powbox4\"></label> At the end of your move step, if you are the only character at your location, you may move a random other character to your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\"/><label for=\"powbox5\"></label>  After you defeat a monster from a location deck, you may examine the top card of that deck; if it’s a boon, banish it."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\"/><label for=\"powbox6\"></label>  If you defeat a henchman by at least 6, add 1d6 (<input id=\"powbox7\" type=\"checkbox\"/><label for=\"powbox7\"></label>2d6) to your check to close the location, if any."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 4,
+                    "modAmt": 4
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "alahazra": {
+            "name": "Alahazra",
+            "class": "Female Human Oracle",
+            "favcard": "Blessing",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Divine: Charisma +2"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card that has the Divine trait to examine the top card of any location deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label> or the blessings deck or any character deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your combat check has the Attack trait, add 2 to it. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+1</label> You may also add the Fire trait.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<small>Alahazra cannot keep weapons in her deck between scenarios.</small>"
+	                }
+				],
+				"stargazer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card that has the Divine trait to examine the top card of any location deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label> or the blessings deck or any character deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> When you use the above power to examine a card from a location deck on your turn, and it is a boon, you may encounter it."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> When you use the above power to examine a card from a character deck, that character may recharge it."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may discard a card that has the Divine trait (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or any card) to add a card that has the Divine trait from your discard pile to your hand (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or to allow a character at your location to add a card from his discard pile to his hand)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your combat check has the Attack trait, add 2 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>3) to it. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You may also add the Fire trait.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> You gain the skill Perception (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>and Survival): Charisma +2."
+	                }
+				],
+				"tempest" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card that has the Divine trait to examine the top card of any location deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label> or the blessings deck or any character deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may discard a card that has the Divine trait to add a card that has the Divine trait from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your combat check has the Attack trait, add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">3</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">4</label>) to it. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+1</label> You may also add the (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> Electricity or) Fire trait.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Add 2 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\">4</label>) to your check to recharge (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or acquire) a spell that has the Attack trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you play a spell that has the Attack trait, you gain the skill Arcane: Charisma +2 until the end of the encounter."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 5,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "jirelle": {
+            "name": "Jirelle",
+            "class": "Female Hlaf-Elf Swashbuckler",
+            "favcard": "Ally",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Acrobatics: Dexterity +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Survival: Wisdom +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 4
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your check has the Swashbuckling trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or is a check to defeat a ship), you may reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or 2 dice) on your check; you must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Reduce Structural damage to your ship by 1."
+	                }
+				],
+				"pirate queen" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your check has the Swashbuckling trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or is a check to defeat a ship), you may reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or 2 dice) on your check; you must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Reduce Structural damage to your ship by 1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> 2)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> You gain the skill Diplomacy (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> and Craft): Charisma +3."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> When you acquire a card that has the Pirate or Swashbuckling trait, you may immediately explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You may reveal a card that has the Swashbuckling trait to add the Swashbuckling trait to your check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  If you are on a ship, you may move at the end of your turn (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or the character commanding your ship may move at the end of her turn)."
+	                }
+				],
+				"duelist" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+3)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If your check has the Swashbuckling trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or is a check to defeat a ship), you may reroll 1 die (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or 2 dice) on your check; you must take the second result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Reduce Structural damage to your ship by 1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> When you defeat a monster on your turn, and your check to defeat has the Swashbuckling trait, you may discard (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or recharge) a card to immediately explore."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> When you acquire a card that has the Finesse or Ranged trait, you may immediately recharge it to draw a card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You may recharge an ally to recharge a random card (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a weapon of your choice) from your discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  If any die rolled on your check is an 8 or higher, roll 1d4 and add it to the result."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 5,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "lem": {
+            "name": "Lem",
+            "class": "Male Halfling Bard",
+            "favcard": "Your Choice",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Craft: Intelligence +1"
+                    	},
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Charisma +1"
+                    	},
+                    	{
+	                    	"name": "Diplomacy: Charisma +3"
+                    	},
+                    	{
+	                    	"name": "Divine: Charisma +1"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) to any check by a character at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would recharge a card, you may shuffle it into your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                }
+				],
+				"sea singer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) to any check by a character at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would recharge a card, you may shuffle it into your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> Add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>2d4) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>3d4) to your non-combat check to defeat a bane (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or ship)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> For your combat check against a bane that has the Aquatic trait, you may use your Diplomacy skill + 1d6 and add the Magic and Mental traits; you may additionally discard a card to add another 1d8. This counts as playing a spell."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you roll on the Plunder Table, you may add or subtract 1 from the result."
+	                }
+				],
+				"freebooter" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may recharge a card to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) to any check by a character at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would recharge a card, you may shuffle it into your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> For your check that has or is against a card that has the Firearm trait, gain the skill Ranged: Dexterity +2 until the end of the encounter."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> When you encounter a bane that has the Task (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or Pirate) trait (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a ship), you may recharge any number of allies; for each ally recharged, add 1d6 to the check to defeat the bane."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you play a blessing on any check that has the Swashbuckling (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or Firearm) trait, add a d12 instead of the normal die."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 3,
+                    "modAmt": 1
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "lirianne": {
+            "name": "Lirianne",
+            "class": "Female Half-Elf Gunslinger",
+            "favcard": "Weapon",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Ranged: Dexterity +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 5,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Perception: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may shuffle a card from your hand into your deck to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) to any combat check at another location."
+	                }
+				],
+				"musketeer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may shuffle a card from your hand into your deck to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+4</label>) to any combat check at another location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> If you begin your turn with no weapons in your hand, you may draw a card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you play a weapon that has the Firearm trait on your combat check, you may immediately shuffle another such weapon into your deck to draw a card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Add 2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> 3) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> 4) to your combat check that has the Firearm trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may discard a weapon to defeat a barrier that has the Cache, Lock, or Skirmish trait."
+	                }
+				],
+				"deadeye" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+									"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+								]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a weapon that has the Firearm trait, if you would bury it or shuffle it into your deck, you may keep it and instead perform the required action with another card."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may shuffle a card from your hand into your deck to add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+4</label>) to any combat check at another location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> When you encounter a bane, you may attempt a Perception check with a difficulty of 5 plus the adventure deck number of the bane, if any, to evade it."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you are on a ship and a random ship is summoned, you may draw 2 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or 3) such cards and choose 1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you would fail a combat check that has the Firearm trait, you may discard a weapon to add 1d4 to your result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you move to a different location during your move step, you may examine the top card of that location deck (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> and shuffle it into the deck)."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 4
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "merisiel": {
+            "name": "Merisiel",
+            "class": "Female Elf Rogue",
+            "favcard": "Item",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Acrobatics: Dexterity +2"
+                    	},
+                    	{
+	                    	"name": "Disable: Dexterity +2"
+                    	},
+                    	{
+	                    	"name": "Stealth: Dexterity +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 2,
+                    "bonus": [
+                    	{
+	                    	"name": "Craft: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may evade your encounter."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) to your combat check."
+	                }
+				],
+				"shadow" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may evade your encounter (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>and if it is a boon, you may put it on top of the location deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+4</label>) to your combat check (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>and discard it to add an additional 1d6)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When a monster deals damage to you before (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or after) you act, reduce that damage to 0."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> You automatically succeed at your Knowledge check."
+	                }
+				],
+				"smuggler" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may evade your encounter (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>If the encountered card has the Pirate or Swashbuckling trait, you may immediately explore again.)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) to your combat check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> Add 1d4 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\">+1</label>) to your non-combat check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you acquire a card, you may give it to another character."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When a character gives you a card on his turn, he may give you any number of cards."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When one or more plunder cards are stashed on your turn, you may stash an additional plunder card."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "seltyiel": {
+            "name": "Seltyiel",
+            "class": "Male Half-Elf Magus",
+            "favcard": "Weapon or Spell",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Melee: Strength +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Intelligence +3"
+                    	},
+						{
+	                    	"name": "Craft: Intelligence +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 7,
+	                    "modAmt": 4
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Choose a weapon that doesn’t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to add 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>2d6) and that card’s traits to the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may attempt to recharge a spell in your discard pile."
+	                }
+				],
+				"marauder" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Choose a weapon that doesn’t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to add 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>2d6) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3d6) and that card’s traits to the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may attempt to recharge a spell in your discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> You may discard a spell that has the Attack trait to add 1d6 (□ 2d6) to any check to defeat a ship or barrier."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You gain the skill Ranged: Intelligence +2."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you discard (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or recharge) a card that has the Pirate or Swashbuckling trait, you may draw 1 card (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or 2 cards)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you play a blessing on a Craft check, recharge the blessing."
+	                }
+				],
+				"spellblade" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Choose a weapon that doesn’t have the 2-Handed trait and a spell that has the Attack trait. When you play one for your combat check, you may recharge the other (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or shuffle it into your deck) to add 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>2d6) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3d6) and that card’s traits to the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn, you may attempt to recharge a spell in your discard pile."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> When you play a weapon that has the Sword trait, you may add your Intelligence skill to your combat check.."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> Add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\">4</label>) to your check to acquire a spell or a weapon."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you acquire a spell or a weapon on your turn, you may immediately explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Discard a spell to put a weapon from your discard pile into your hand (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or discard a weapon to put a spell from your discard pile into your hand)."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "valeros": {
+            "name": "Valeros",
+            "class": "Male Human Fighter",
+            "favcard": "Weapon",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Melee: Strength +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Diplomacy: Charisma +1"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) to another character’s combat check at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or shuf e it into your deck) instead."
+	                }
+				],
+				"corsair" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+2</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+3</label>) to another character’s combat check at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or shuf e it into your deck) instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You may recharge a weapon to add the Swashbuckling trait to your check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Add 2 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\">4</label>) to your check to defeat a monster that has the Captain or Pirate trait or a ship."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you would put a barrier faceup on top of a location deck, you may shuf e it facedown into the deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Recharge a card to reduce Structural damage dealt to your ship by 1 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\">2</label>)."
+	                }
+				],
+				"tactician" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+2</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+3</label>) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\">+4</label>) to another character’s combat check at your location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or shuf e it into your deck) instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You may recharge an ally to add 1 plus its adventure deck number, if any, to your combat (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or non-combat) check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When another character encounters a villain, you may immediately move."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>) to your check to defeat a henchman or villain."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 3,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "damiel": {
+            "name": "Damiel",
+            "class": "Male Elf Alchemist",
+            "favcard": "Item",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Disable: Dexterity +2"
+                    	},
+                    	{
+	                    	"name": "Ranged: Dexterity +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Craft: Intelligence +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 1,
+                    "modAmt": 1
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) and the Poison or Fire trait to any combat check at your location; if the discarded card has the Alchemical trait, add an additional 1d6."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a card that has the Alchemical trait and would banish it, you may recharge it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait."
+	                }
+				],
+				"grenadier" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+3</label>) and the Poison or Fire (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or Acid, Cold, Electricity, or Mental) trait to any combat check at your location; if the discarded card has the Alchemical trait, add an additional 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>1d12)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a card that has the Alchemical trait and would banish it, you may recharge it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you acquire a boon that has the Alchemical or Liquid (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or Firearm) trait, you may immediately explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you succeed at a Craft check, you may examine the top card of your deck; if it is an item, you may add it to your hand."
+	                }
+				],
+				"chirurgeon" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">+1</label>) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">+2</label>) and the Poison or Fire trait to any combat check at your location; if the discarded card has the Alchemical (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or Healing) trait, add an additional 1d6."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play a card that has the Alchemical trait and would banish it, you may recharge it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You gain the skills Arcane and Divine equal to your Craft skill while you play or when you would banish a spell that does not have the Attack trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> When you acquire a boon that has the Alchemical or Liquid (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or Healing) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Fire or Poison) trait, you may immediately explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> You may recharge an item that has the Alchemical trait to add 1d4 to your check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you reset your hand, you may discard any number of cards to increase your hand size by that number until the end of your turn."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 6,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "feiya": {
+            "name": "Feiya",
+            "class": "Female Human Witch",
+            "favcard": "Spell",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Intelligence +3"
+                    	},
+                    	{
+	                    	"name": "Craft: Intelligence +2"
+                    	},
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 3
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When any character at your location attempts a check to acquire a spell or defeat a monster (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or barrier), you may recharge a card to reduce the dif culty of that check by 1 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">2</label>) plus the adventure deck number of the recharged card, if any."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard an ally that has the Animal trait to return a spell from your discard pile to your hand."
+	                }
+				],
+				"sea witch" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When any character at your location attempts a check to acquire a spell or defeat a monster (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or barrier), you may recharge a card to reduce the dif culty of that check by 1 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">2</label>) plus the adventure deck number of the recharged card, if any."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or recharge) an ally that has the Animal trait to return a spell from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> You may discard a card to evade a bane that has the Aquatic trait (□ and you may put the bane on top of the deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You may recharge a card to add 2d4 to your Fortitude (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Survival) check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you close a location, you may move."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you play Blessing of Hshurha, or you play any blessing on any check to defeat a bane that has the Aquatic trait, you may recharge it instead of discarding it."
+	                }
+				],
+				"hexer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When any character at your location attempts a check to acquire a spell or defeat a monster (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or barrier), you may recharge a card to reduce the dif culty of that check by 1 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\">2</label>) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">3</label>) plus the adventure deck number of the recharged card, if any."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard an ally that has the Animal trait (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or any ally) to return a spell from your discard pile to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> When you would shuf e a non-henchman, non-villain monster you encountered into a location deck, you may exchange it for a random monster from the box."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you succeed at a Craft check (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or play a spell that has the Arcane trait), you may examine the top card of your deck; if it’s a spell (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or ally), you may add it to your hand."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you play Blessing of Pharasma, or you play any blessing on any check to acquire an ally, you may recharge it instead of discarding it."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 6,
+                    "modAmt": 4
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "item",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "lini": {
+            "name": "Lini",
+            "class": "Female Gnome Druid",
+            "favcard": "Ally",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 3
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Divine: Wisdom +2"
+                    	},
+                    	{
+	                    	"name": "Survival: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 3,
+                    "modAmt": 1
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuf e it into your deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it on top of your deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead."
+	                }
+				],
+				"feral druid" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuf e it into your deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it on top of your deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to use a d12 for your Strength or Dexterity (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or Constitution) die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> For your combat check, you may reveal a card that has the Divine trait to use your Strength skill + 1d8 and add the Magic and Melee (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>and Fire, Cold, or Electricity) traits; you may not play a weapon on the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> Add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\">4</label>) to your check against a card that has the Animal trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Recharge a card to reduce Combat damage dealt to you by 1 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\">2</label>)."
+	                }
+				],
+				"aquamancer" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you play an ally that has the Animal trait, if you would recharge, discard, or bury it for its power, you may instead shuf e it into your deck (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it on top of your deck)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card to use a d12 for your Strength or Dexterity die; if the check is against a card that has the Animal or Aquatic trait, recharge the card instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> When you succeed at a check to recharge a spell that has the Attack trait, you may put it on top of your deck instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> Recharge a card to reduce Acid, Cold, Electricity, or Fire damage dealt to you by 1 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">2</label>)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> Add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\">4</label>) to any combat check by a character at your location against a card that has the Aquatic trait (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or any check by that character against a ship)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> If you defeat a monster that has the Aquatic trait and would banish it, you may put it in your hand. You may banish a monster from your hand to add 1d4 to any combat check at your location."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "oloch": {
+            "name": "Oloch",
+            "class": "Male Half-Orc Warpriest",
+            "favcard": "Armor",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Melee: Strength +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Divine: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 1
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">2</label>) to the check. Return the displayed cards to your hand before you reset it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and at the start of your turn)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Instead of your  rst exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuf e 1d4+1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+2</label>) random cards from her discard pile into her deck, then discard the card you revealed."
+	                }
+				],
+				"Battle Chaplain" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 3
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">2</label>) to the check. Return the displayed cards to your hand before you reset it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and at the start of your turn)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Instead of your  rst exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuf e 1d4+1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+2</label>) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+3</label>) random cards from her discard pile into her deck, then discard the card you revealed."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> When you encounter an ally, you may banish it and immediately explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You may automatically succeed at your check to acquire (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or recharge) a card that has the Healing trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When a character plays a blessing on your combat or Strength check, that character may recharge (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>that blessing or) a random card from her discard pile."
+	                }
+				],
+				"Shield of Gorum" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\"> Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\"> Heavy Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\"> Weapons</label>"
+	                    		]
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character attempts any check, you may display any number of blessings and weapons; for each card displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\">2</label>) to the check. Return the displayed cards to your hand before you reset it (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and at the start of your turn)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Instead of your  rst exploration on a turn, you may reveal a blessing or armor to choose a character at your location. Shuf e 1d4+1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\">+2</label>) random cards from her discard pile into her deck, then discard the card you revealed."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> When another character at your location is dealt damage, you may reveal an armor to reduce that damage by 1; you may instead discard that armor to reduce the damage by 2 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox4\">3</label>) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\">4</label>)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you would bury an armor or weapon, you may discard (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or recharge) it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 to your check to defeat a monster that has the Human trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When a character plays a blessing on your combat or Strength check, that character may recharge a random card from her discard pile; if the played card is Blessing of Gorum, the character may  rst recharge the blessing."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 5,
+                    "modAmt": 2
+                }
+            ]
+        }
+    },
+    "scenarios": [
+        {
+            "advName": "The Wormwood Mutiny",
+            "locations": [
+                {
+                    "name": "Press Ganged!"
+                },
+                {
+                    "name": "Cat and Mouse"
+                },
+                {
+                    "name": "The Wreck of the <i>Infernus</i>"
+                },
+                {
+                    "name": "The Grindylow and the Whale"
+                },
+                {
+                    "name": "Plugg’s Uglies"
+                }
+            ]
+        },
+        {
+            "advName": "Raiders of the Fever Sea",
+            "locations": [
+                {
+                    "name": "Give the Devil His Due"
+                },
+                {
+                    "name": "The Toll of the Bell"
+                },
+                {
+                    "name": "Attack on Rickety’s Squibs"
+                },
+                {
+                    "name": "The Lady’s Favor"
+                },
+                {
+                    "name": "The Secret of Mancatcher Cove"
+                }
+            ]
+        },
+        {
+            "advName": "Tempest Rising",
+            "locations": [
+                {
+                    "name": "Shore Leave at Port Peril"
+                },
+                {
+                    "name": "Bizarre Love Triangle"
+                },
+                {
+                    "name": "The <i>Brine Banshee’s</i> Grave"
+                },
+                {
+                    "name": "Spies Among Us"
+                },
+                {
+                    "name": "The Free Captain’s Regatta"
+                }
+            ]
+        },
+        {
+            "advName": "Island of Empty Eyes",
+            "locations": [
+                {
+                    "name": "Home Sweet Home"
+                },
+                {
+                    "name": "The Ruines of Sumitha"
+                },
+                {
+                    "name": "Breaking the Dreamstone"
+                },
+                {
+                    "name": "Red Rum"
+                },
+                {
+                    "name": "The Feast of Spoils"
+                }
+            ]
+        },
+        {
+            "advName": "The Price of Infamy",
+            "locations": [
+                {
+                    "name": "An Unforgivable Act"
+                },
+                {
+                    "name": "Islands of the Damned"
+                },
+                {
+                    "name": "Isle of the Black Tower"
+                },
+                {
+                    "name": "The Battle of Empty Eyes"
+                },
+                {
+                    "name": "Best Served Cold"
+                }
+            ]
+        },
+        {
+            "advName": "From Hell's Heart",
+            "locations": [
+                {
+                    "name": "Danse Magaav"
+                },
+                {
+                    "name": "The Armada"
+                },
+                {
+                    "name": "Storming Fort Hazard"
+                },
+                {
+                    "name": "Inside Lucrehold"
+                },
+                {
+                    "name": "Last Stand of the Hurricane King"
+                }
+            ]
+        }
+    ]
+}

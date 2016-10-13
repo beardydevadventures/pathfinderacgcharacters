@@ -1,0 +1,536 @@
+{
+    "characters": {
+        "amiri": {
+            "name": "Amiri",
+            "class": "Female Human Barbarian",
+            "description": "Amiri is a fierce tribal warrior from the rugged clans of the north. She claimed her oversized bastard sword as a trophy after single-handedly wiping out a band of frost giants. When she returned to her people, she discovered her raid had been meant to be a suicide mission—a punishment for consistently one-upping her tribe’s male warriors in battle. In a rage, she slaughtered her traitorous comrades, then forsook her homeland to make her own place in the world.",
+            "favcard": "Weapon",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 5,
+                    "modAmt": 4
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 1,
+                    "bonus": [
+                    	{
+	                    	"name": "Survival: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card to add 1d10 to your Strength or Constitution check, or to your check to defeat a barrier that has the Lock, Obstacle, or Trap trait. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>Then you may draw a card.) If it is your exploration, but it is not the first exploration of your turn, add an additional 1d6."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or when your location closes), you may move."
+	                }
+				],
+				"unstoppable force" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card to add 1d10 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+1) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+2) to your Strength or Constitution check, or to your check to defeat a barrier that has the Lock, Obstacle, or Trap trait. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>Then you may draw a card.) If it is your exploration, but it is not the first exploration of your turn, add an additional 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>1d8)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or when your location closes), you may move. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>If you do, you may then examine the top card of your location deck.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>When you defeat a barrier, you may examine the top card (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or top 3 cards) of your location deck. You may put any examined boons on the bottom of the location deck. (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>Then you may explore your location.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you acquire a boon on your turn, you may immediately recharge it to explore your location."
+	                }
+				],
+				"immovable object" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card to add 1d10 to your Strength or Constitution check, or to your check to defeat a barrier that has the Lock, Obstacle, or Trap trait. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>Then you may draw a card.) If it is your exploration, but it is not the first exploration of your turn, add an additional 1d6."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "At the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or when your location closes), you may move (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or you may recharge a card)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>When you would be moved, you may choose not to move."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>Add 1d6 to your check to close a location (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or your check when it is not your turn.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>When you acquire a boon, you may recharge it to recharge a random card from your discard pile (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or draw a card)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When a bane deals damage to you before you act, reduce that damage by 3."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 3,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "brielle": {
+            "name": "Brielle",
+            "class": "Female Halfling Barbarian",
+            "description": "In the city of Egorian, halflings keep to the underworld. The disdainful Chelaxians call halflings \"slips,\" much to the halflings’ dismay. In the shadows, Brielle built a mountain out of her resentment against the Chelish citizens, bashing together weapons out of whatever scraps they foolishly threw at her. Now free from her unpalatable masters, Brielle ventures into the world with a chip on her shoulder. For most people, that chip is right at waist level.",
+            "favcard": "Item",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 3,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Melee: Strength +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 4
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Diplomacy: Charisma +3"
+                    	}
+                    ]
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to your Strength or Charisma check. If you succeed at the check, you may recharge that card instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your combat check, you may reveal an item that has the Object or Tool trait to use your Melee skill + 1d8 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>1d12) plus the card’s adventure deck number; you may additionally discard it to add another 1d8 and the card’s traits."
+	                }
+				],
+				"opportunist" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) to your Strength or Charisma check. If you succeed at the check (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or if the check has the Bludgeoning trait), you may recharge that card instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your combat check, you may reveal an item that has the Object or Tool trait  (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or a card that has the Club trait or an ally) to use your Melee skill + 1d8 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>1d12) plus the card’s adventure deck number; you may additionally discard it to add another 1d8 and the card’s traits."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>On your check, you may recharge a card to reroll 1 die that rolled a value of 1; take the new result."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>You may use your Melee skill instead of your Craft skill. (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>On your check to acquire an item, you may use your Melee skill instead of any listed skill.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When a character at your location fails to acquire an item, you may encounter it."
+	                }
+				],
+				"kneecapper" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) to your Strength or Charisma check. If you succeed at the check, you may recharge that card instead. (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>After you roll, count the number of dice that rolled a value of 12. You may reroll up to that number of dice; take the new result.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "For your combat check, you may reveal an item that has the Object or Tool trait to use your Melee skill + 1d8 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>1d12) plus the card’s adventure deck number; you may additionally discard it to add another 1d8 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+3) and the card’s traits."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you attempt a check before you act, you may use your Melee skill instead of any listed skill."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>If you succeed at all checks required to defeat a monster, reduce all damage dealt to you after you act to 0. (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Then you may examine the top card of your location deck; if it’s a non-villain, non-henchman monster, you may shuffle it into another open location deck.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may discard a card to evade a monster you encounter and put it on top of your location deck."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 4,
+                    "modAmt": 1
+                }
+            ]
+        },
+        "ostog": {
+            "name": "Ostog",
+            "class": "Male Human Barbarian",
+            "description": "The Steaming Sea crashed with thunder the night Ostog the Unslain betrayed Girt Bear-Wearer and was thrown into the tumultuous waters. Surviving dozens of knife penetrations and the bludgeoning of the relentless surf, he emerged ready to cut a swath through the bawdyhouses of Sandpoint. Refusing to wear armor—which he refers to as “the cloak of cowards”—Ostog rages into the infinite. The gods might slay him one day, though to do so would limit their joy at his scandalous behavior.",
+            "favcard": "Weapon",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Melee: Strength +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 3
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to your Strength or Constitution check; if you fail, you may discard it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you are dealt Combat (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or any) damage, you may recharge a card to reduce the damage by 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character at your location moves during her move step, you may move to an open location."
+	                }
+				],
+				"the unslain" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to your Strength or Constitution check; if you fail, you may discard it instead (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or if your check has the 2-Handed trait), you may discard it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you are dealt Combat (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or any) damage, you may recharge a card to reduce the damage by 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>4)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character at your location moves during her move step, you may move to an open location."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>While you reset your hand at the end of the turn, you may treat your hand size as 3 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or 2)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Before you reset your hand, you may recharge any number of weapons (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>and items)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>If you would acquire an armor, banish it instead and draw a weapon (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or an item) from the box."
+	                }
+				],
+				"wencher" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 4,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may bury a card from your hand to add 1d12 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+2) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+3) to your Strength or Constitution (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Diplomacy) check; if you fail, you may discard it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you are dealt Combat (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or any) damage, you may recharge a card to reduce the damage by 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When another character at your location moves during her move step, you may move to an open location (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and while you are at her location this turn, you may add 1d4 to her combat checks)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>At the start of your turn, you may exchange a card in your hand for an ally that does not have the Animal trait from your discard pile"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>If you would acquire an armor, banish it instead and draw an ally (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or a blessing) from the box."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 6,
+                    "modAmt": 3
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 0,
+                    "modAmt": 0
+                },
+                {
+                    "name": "item",
+                    "startAmt": 3,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 3,
+                    "modAmt": 3
+                }
+            ]
+        }
+    },
+    "cards": [
+        {
+            "name": "Place Expansion Cards Here"
+        }
+    ]
+}

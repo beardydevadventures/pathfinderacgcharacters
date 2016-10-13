@@ -1,0 +1,541 @@
+{
+    "characters": {
+        "cogsnap": {
+            "name": "Cogsnap",
+            "class": "Male Gnome Alchemist",
+            "description": "The tinkerer Cogsnap is a tragic sort of gnome known as a bleachling lunatic. The bleaching is a process gnomes go through when deprived of stimulation; they slowly whiten and die if not exposed to massive reinvigoration. An explosion in Cogsnap’s family’s fireworks factory brought him back to health. Now he dedicates himself to the improvement of people’s lives through detonative chemistry. His whizbang pursuit of mechanical reinvention has come at the cost of a few toes, though not his own.",
+            "favcard": "Item",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 2,
+                    "modAmt": 3
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Disable: Dexterity + 3"
+	                    },
+                    	{
+	                    	"name": "Ranged: Dexterity +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 4,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Arcane: Intelligence +1"
+	                    },
+                    	{
+	                    	"name": "Craft: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 2
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish a card that has the Alchemical trait for its power, you may (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> discard it or) banish another card that has the Alchemical or Liquid trait instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d6 to your Ranged combat check that has the Alchemical trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "After you defeat a monster, you may discard (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or recharge) a card to draw an item that has the Alchemical or Liquid trait from the box."
+	                }
+				],
+				"bodger" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish a card that has the Alchemical trait for its power, you may (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> discard it or) banish another card that has the Alchemical or Liquid trait instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d6 to your Ranged combat check that has the Alchemical trait (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or your check against a card that has the Automaton, Construct, or Trap trait)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "After you defeat a monster, you may discard (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or recharge) a card to draw an item that has the Alchemical or Liquid trait from the box. (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> If the defeated monster has the Construct trait, or if you defeat a barrier that has the Lock or Trap trait, you may draw a (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> non-Basic) item instead.)"
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You may recharge a card to add 1d6 to your check (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a check by a character at your location) against a card that has the Automaton, Construct, or Trap trait (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or any barrier) and ignore its immunities."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you would discard (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or bury) a boon that has the Automaton or Tool trait, you may recharge it instead."
+	                }
+				],
+				"bloodbomber" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish a card that has the Alchemical trait for its power, you may (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> discard it or) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> recharge it or) banish another card that has the Alchemical or Liquid trait instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "Add 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\">+2</label>) to your Ranged combat check that has the Alchemical trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "After you defeat a monster, you may discard (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or recharge) a card to draw an item that has the Alchemical or Liquid trait from the box  (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or you may draw 2 and return 1 to the box)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> On (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> your combat check or) your Ranged combat check, you may discard any number of items that have the Alchemical trait (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or any items); for each item discarded, add 1d6 and the item's traits to the check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> The first item (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or any item) you play that has the Alchemical or Liquid trait does not count against the number of items you can play on a check or step."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 2,
+                    "modAmt": 1
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 5,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 3,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 3,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "damiel": {
+            "name": "Damiel",
+            "class": "Male Elf Alchemist",
+            "description": "The possibilities of alchemy have always fascinated the alchemist Damiel. Delving deep into the ancient elixirs and formulas of Kyonin, his research took a daring turn when he started using himself as a test subject. Following a spate of unsolved crimes, Damiel was banished from his elven homeland. Wandering the world has only deepened his thirst for knowledge, giving him ample opportunities to fuel his addiction to ever-greater secrets.",
+            "favcard": "Weapon",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Disable: Dexterity +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 2,
+                    "modAmt": 2
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 4,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Craft: Intelligence +3"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 2,
+                    "modAmt": 2,
+                    "bonus": [
+                    	{
+	                    	"name": "Perception: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 1,
+                    "modAmt": 1
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may not play spells that have the Attack trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish a card that has the Alchemical trait or a spell for its power, you may recharge it instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card that has the Alchemical trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any 2 cards) to add your Intelligence skill to your Dexterity combat check (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your Strength, Dexterity, or Constitution non-combat check)."
+	                }
+				],
+				"miscibility master" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may not play spells that have the Attack trait."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish a card that has the Alchemical trait or a spell for its power, you may recharge it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or shuffle it into your deck) instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card that has the Alchemical trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any 2 cards) to add your Intelligence skill (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+2) to your Dexterity combat check (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your Strength, Dexterity, or Constitution non-combat check)  (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or your Strength check when you do not play a weapon)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you defeat a barrier that has the Obstacle trait (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or any barrier), you may explore again."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>At the end of your turn, you may recharge a random card (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or any card) from your discard pile (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or your buried cards)"
+	                }
+				],
+				"mindchemist" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 5,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+	                    			"<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may not play spells that have the Attack trait (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>unless you discard a card that has the Alchemical trait)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or discard) a card that has the Alchemical trait or a spell for its power, you may recharge it (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or shuffle it into your deck) instead."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may discard a card that has the Alchemical trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any 2 cards) to add your Intelligence skill to your Dexterity combat check (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your Strength, Dexterity, or Constitution non-combat check)."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>You may bury (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or discard) a card that has the Alchemical trait to add your Dexterity skill (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+2) to your Intelligence (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or Wisdom or Charisma) check. (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>Then you may draw a card.)"
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 4,
+                    "modAmt": 1
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 3,
+                    "modAmt": 1
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "item",
+                    "startAmt": 4,
+                    "modAmt": 3
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 3,
+                    "modAmt": 2
+                }
+            ]
+        },
+        "mother-myrtle": {
+            "name": "Mother Myrtle",
+            "class": "Female Human Alchemist",
+            "description": "The caves of the Mindspin Mountains host a wide variety of fungi and creatures that skittle among them. These are the essential ingredients of Mother Myrtle’s brews and pastes, all reeking of earth and decay. For those that can stomach a goldbelly stinkbug and puffball roux, deep knowledge and power await. Her concoctions can make you very ill or much healthier, often in that order. Take heed: if Mother Myrtle offers you some mushrooms, you should eat your mushrooms.",
+            "favcard": "Spell",
+            "skills": [
+                {
+                    "name": "strength",
+                    "diceNo": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "dexterity",
+                    "diceNo": 1,
+                    "modAmt": 2
+                },
+                {
+                    "name": "constitution",
+                    "diceNo": 3,
+                    "modAmt": 2,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +1"
+                    	}
+                    ]
+                },
+                {
+                    "name": "intelligence",
+                    "diceNo": 3,
+                    "modAmt": 3,
+                    "bonus": [
+                    	{
+	                    	"name": "Knowledge: Intelligence +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "wisdom",
+                    "diceNo": 5,
+                    "modAmt": 4,
+                    "bonus": [
+                    	{
+	                    	"name": "Craft: Wisdom +2"
+	                    },
+                    	{
+	                    	"name": "Survival: Wisdom +2"
+                    	}
+                    ]
+                },
+                {
+                    "name": "charisma",
+                    "diceNo": 2,
+                    "modAmt": 3
+                }
+            ],
+            "powers": {
+            	"basic" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may use your Wisdom skill for your Arcane (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or Divine) check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or discard) a boon that has the Alchemical, Arcane, Divine, or Liquid trait for its power, you may instead attempt a Knowledge check with a difficulty of 7 plus the card’s adventure deck number. If you succeed, recharge it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or shuffle it into your deck); if you fail, discard it."
+	                }
+				],
+				"preservationist" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 1
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may use your Wisdom skill for your Arcane (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or Divine) check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or discard) a boon that has the Alchemical, Arcane, Divine, or Liquid trait for its power, you may instead attempt a Knowledge check with a difficulty of 7 plus the card’s adventure deck number. If you succeed, recharge it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or shuffle it into your deck); if you fail, discard it."
+	                },
+	                {
+		                "name": "",
+	                    "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>You may recharge a card to add 1d4 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>1d6) to a Wisdom (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or Knowledge) check by a character at your location (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or add 2d4 to his check against a card that has the Animal, Aquatic, Plant, or Vermin trait)."
+	                },
+	                {
+		                "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>At the start of your turn, you may display an ally that does not list Diplomacy in its check to acquire. During your turn, you may recharge a card to draw one of those allies (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or to give one of them to another character at your location)."
+	                },
+	                {
+		                "name": "",
+	                    "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may play an additional ally on your check (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or any check)."
+	                }
+				],
+				"reanimator" : [
+		        	{
+	                    "name": "Hand Size",
+	                    "desc": 6,
+	                    "modAmt": 2
+	                },
+	                {
+	                    "name": "Proficient",
+	                    "desc": [
+	                    			"<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+	                    		]	
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "You may use your Wisdom skill for your Arcane (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or Divine) check."
+	                },
+	                {
+	                    "name": "",
+	                    "desc": "When you would banish (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or discard) a boon that has the Alchemical, Arcane, Divine, or Liquid trait for its power, you may instead attempt a Knowledge check with a difficulty of 7 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>5) plus the card’s adventure deck number. If you succeed, recharge it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or shuffle it into your deck); if you fail, discard it."
+	                },
+	                {
+		               	"name": "",
+	                    "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>You may recharge a card to add 1d4 to a Wisdom check by a character at your location (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or to add 2d4 to his check against a card that has the Animal, Aquatic, Plant, or Vermin trait) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or the Outsider or Undead trait)." 
+	                },
+	                {
+		                "name": "",
+	                    "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>When a character at your location defeats a monster, you may draw an ally (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or a spell or an item) from your discard pile (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or search your deck for a card of that type and draw it)."
+	                }
+				]
+            },
+            "cardslist": [
+                {
+                    "name": "weapon",
+                    "startAmt": 0,
+                    "modAmt": 1
+                },
+                {
+                    "name": "spell",
+                    "startAmt": 3,
+                    "modAmt": 2
+                },
+                {
+                    "name": "armor",
+                    "startAmt": 1,
+                    "modAmt": 1
+                },
+                {
+                    "name": "item",
+                    "startAmt": 5,
+                    "modAmt": 2
+                },
+                {
+                    "name": "ally",
+                    "startAmt": 4,
+                    "modAmt": 2
+                },
+                {
+                    "name": "blessing",
+                    "startAmt": 2,
+                    "modAmt": 2
+                }
+            ]
+        }
+    },
+    "cards": [
+        {
+            "name": "Place Expansion Cards Here"
+        }
+    ]
+}

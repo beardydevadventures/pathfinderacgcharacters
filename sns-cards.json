@@ -1,0 +1,1276 @@
+{
+	"weapons": [
+        {
+            "name": "Adamantine Trident +3",
+            "expansion": "6"
+        },
+        {
+            "name": "Animalbane Dagger +1",
+            "expansion": "1"
+        },
+        {
+            "name": "Belaying Pin",
+            "expansion": "B"
+        },
+        {
+            "name": "Blasting Pistol +2",
+            "expansion": "5"
+        },
+        {
+            "name": "Blunderbuss",
+            "expansion": "B"
+        },
+        {
+            "name": "Boarding Axe",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Boarding Pike",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Cat-o'-Nine-Tails",
+            "expansion": "B"
+        },
+        {
+            "name": "Cutlass",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Cutlass +1",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Dagger",
+            "expansion": "B"
+        },
+        {
+            "name": "Dagger Pistol +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Distance Musket +1",
+            "expansion": "6"
+        },
+        {
+            "name": "Dragon Pistol",
+            "expansion": "B"
+        },
+        {
+            "name": "Dragon Pistol +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Enervating Pistol +3",
+            "expansion": "6"
+        },
+        {
+            "name": "Falcata",
+            "expansion": "B"
+        },
+        {
+            "name": "Falcata +1",
+            "expansion": "1"
+        },
+        {
+            "name": "Falchion +3",
+            "expansion": "6"
+        },
+        {
+            "name": "Fire Lance",
+            "expansion": "B"
+        },
+        {
+            "name": "Flaming Falcata +3",
+            "expansion": "5"
+        },
+        {
+            "name": "Flaming Longbow +2",
+            "expansion": "5"
+        },
+        {
+            "name": "Flaming Musket +2",
+            "expansion": "6"
+        },
+        {
+            "name": "Furious Broadsword +2",
+            "expansion": "6"
+        },
+        {
+            "name": "Grayflame Mace +2",
+            "expansion": "5"
+        },
+        {
+            "name": "Harpoon",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Heavy Crossbow",
+            "expansion": "B"
+        },
+        {
+            "name": "Humanbane Gladius +2",
+            "expansion": "5"
+        },
+        {
+            "name": "Humanbane Heavy Crossbow +2",
+            "expansion": "3"
+        },
+        {
+            "name": "Icy Boarding Pike +1",
+            "expansion": "B"
+        },
+        {
+            "name": "Invigorating Kukri +1",
+            "expansion": "4"
+        },
+        {
+            "name": "Keen Falcata +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Keen Rapier +3",
+            "expansion": "5"
+        },
+        {
+            "name": "Light Crossbow",
+            "expansion": "B"
+        },
+        {
+            "name": "Longbow",
+            "expansion": "B"
+        },
+        {
+            "name": "Longsword",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Mace",
+            "expansion": "B"
+        },
+        {
+            "name": "Main-Gauche",
+            "expansion": "B"
+        },
+        {
+            "name": "Morningstar",
+            "expansion": "B"
+        },
+        {
+            "name": "Morningstar +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Musket",
+            "expansion": "B"
+        },
+        {
+            "name": "Musket +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Musket +2",
+            "expansion": "3"
+        },
+        {
+            "name": "Navigator Musket +1",
+            "expansion": "3"
+        },
+        {
+            "name": "Old Salt's Rapier +2",
+            "expansion": "6"
+        },
+        {
+            "name": "Pepperbox",
+            "expansion": "1"
+        },
+        {
+            "name": "Pistol",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Pistol +1",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Quarterstaff",
+            "expansion": "B"
+        },
+        {
+            "name": "Rapier",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Rapier +2",
+            "expansion": "4"
+        },
+        {
+            "name": "Repelling Pike +1",
+            "expansion": "1"
+        },
+        {
+            "name": "Saltbox",
+            "expansion": "4"
+        },
+        {
+            "name": "Sap",
+            "expansion": "B"
+        },
+        {
+            "name": "Seaborne Trident +1",
+            "expansion": "3"
+        },
+        {
+            "name": "Seeking Harpoon +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Sharpshooter's Blade",
+            "expansion": "3"
+        },
+        {
+            "name": "Shock Musket +1",
+            "expansion": "1"
+        },
+        {
+            "name": "Short Sword",
+            "expansion": "B"
+        },
+        {
+            "name": "Shortbow",
+            "expansion": "B"
+        },
+        {
+            "name": "Spellsword +2",
+            "expansion": "4"
+        },
+        {
+            "name": "Sword Cane Pistol +2",
+            "expansion": "4"
+        },
+        {
+            "name": "Throwing Axe",
+            "expansion": "B"
+        },
+        {
+            "name": "Tidewater Cutlass +1",
+            "expansion": "1"
+        },
+        {
+            "name": "Toxic Blunderbuss +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Trident +1",
+            "expansion": "2"
+        },
+        {
+            "name": "Trident +2",
+            "expansion": "3"
+        },
+        {
+            "name": "Venomous Pike +2",
+            "expansion": "6"
+        },
+        {
+            "name": "Whip",
+            "expansion": "B"
+        },
+        {
+            "name": "Zul",
+            "expansion": "2"
+        }
+	],
+	"spells": [
+        {
+            "name": "Aid",
+            "expansion": "B"
+        },
+        {
+            "name": "Animate Water",
+            "expansion": "3"
+        },
+        {
+            "name": "Animated Weapon",
+            "expansion": "2"
+        },
+        {
+            "name": "Aqueous Orb",
+            "expansion": "2"
+        },
+        {
+            "name": "Arcane Armor",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Black Spot",
+            "expansion": "B"
+        },
+        {
+            "name": "Blazing Servant",
+            "expansion": "4"
+        },
+        {
+            "name": "Buoyancy",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Call Weapon",
+            "expansion": "B"
+        },
+        {
+            "name": "Charm Animal",
+            "expansion": "C"
+        },
+        {
+            "name": "Confusion",
+            "expansion": "B"
+        },
+        {
+            "name": "Control Weather",
+            "expansion": "4"
+        },
+        {
+            "name": "Cure",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Dehydrating Touch",
+            "expansion": "2"
+        },
+        {
+            "name": "Detect Magic",
+            "expansion": "B"
+        },
+        {
+            "name": "Dimension Leap",
+            "expansion": "3"
+        },
+        {
+            "name": "Divine Fortune",
+            "expansion": "4"
+        },
+        {
+            "name": "Fear",
+            "expansion": "B"
+        },
+        {
+            "name": "Find Traps",
+            "expansion": "B"
+        },
+        {
+            "name": "Fireblade",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Force Missile",
+            "expansion": "B"
+        },
+        {
+            "name": "Freezing Sphere",
+            "expansion": "3"
+        },
+        {
+            "name": "Frostbite",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Geyser",
+            "expansion": "2"
+        },
+        {
+            "name": "Holy Feast",
+            "expansion": "4"
+        },
+        {
+            "name": "Holy Stone",
+            "expansion": "1"
+        },
+        {
+            "name": "Hydraulic Push",
+            "expansion": "1"
+        },
+        {
+            "name": "Illuminate",
+            "expansion": "1"
+        },
+        {
+            "name": "Inflict",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Instant Armor",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Magic Weapon",
+            "expansion": "B"
+        },
+        {
+            "name": "Obscure",
+            "expansion": "1"
+        },
+        {
+            "name": "Phantasmal Minion",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Protect",
+            "expansion": "2"
+        },
+        {
+            "name": "Rage",
+            "expansion": "1"
+        },
+        {
+            "name": "Raise Dead",
+            "expansion": "5"
+        },
+        {
+            "name": "Recast",
+            "expansion": "6"
+        },
+        {
+            "name": "Resist Energy",
+            "expansion": "4"
+        },
+        {
+            "name": "Righteousness",
+            "expansion": "5"
+        },
+        {
+            "name": "Safe Harbor",
+            "expansion": "2"
+        },
+        {
+            "name": "Seamantle",
+            "expansion": "5"
+        },
+        {
+            "name": "Shapechange",
+            "expansion": "6"
+        },
+        {
+            "name": "Skeleton Crew",
+            "expansion": "3"
+        },
+        {
+            "name": "Speed",
+            "expansion": "B"
+        },
+        {
+            "name": "Sphere of Fire",
+            "expansion": "1"
+        },
+        {
+            "name": "Strength",
+            "expansion": "B"
+        },
+        {
+            "name": "Telekinesis",
+            "expansion": "4"
+        },
+        {
+            "name": "Tsunami",
+            "expansion": "6"
+        },
+        {
+            "name": "Vengeful Storm",
+            "expansion": "6"
+        },
+        {
+            "name": "Wall of Blades",
+            "expansion": "5"
+        },
+        {
+            "name": "Wall of Fire",
+            "expansion": "3"
+        },
+        {
+            "name": "World Wave",
+            "expansion": "6"
+        }
+	],
+	"armors": [
+        {
+            "name": "Animated Shield",
+            "expansion": "4"
+        },
+        {
+            "name": "Benevolent Buckler",
+            "expansion": "1"
+        },
+        {
+            "name": "Besmaran Vestments",
+            "expansion": "3"
+        },
+        {
+            "name": "Blackcloth Armor",
+            "expansion": "2"
+        },
+        {
+            "name": "Breastplate of the Deep",
+            "expansion": "5"
+        },
+        {
+            "name": "Brine Dragonhide Breastplate",
+            "expansion": "4"
+        },
+        {
+            "name": "Buckler",
+            "expansion": "B"
+        },
+        {
+            "name": "Buckler Gun",
+            "expansion": "B"
+        },
+        {
+            "name": "Chain Mail",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Chain Shirt",
+            "expansion": "B"
+        },
+        {
+            "name": "Cloth Armor",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Eel Skin Armor",
+            "expansion": "4"
+        },
+        {
+            "name": "Flaming Buckler Gun",
+            "expansion": "6"
+        },
+        {
+            "name": "Fortified Breastplate",
+            "expansion": "5"
+        },
+        {
+            "name": "Fortified Leather Armor",
+            "expansion": "1"
+        },
+        {
+            "name": "Fortified Shell Armor",
+            "expansion": "3"
+        },
+        {
+            "name": "Hellknight Armor",
+            "expansion": "6"
+        },
+        {
+            "name": "Leather Armor",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Magic Buckler",
+            "expansion": "B"
+        },
+        {
+            "name": "Magic Chain Shirt",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Magic Leather Armor",
+            "expansion": "B"
+        },
+        {
+            "name": "Magic Wooden Armor",
+            "expansion": "1"
+        },
+        {
+            "name": "Reflecting Buckler",
+            "expansion": "5"
+        },
+        {
+            "name": "Shark Skin Armor",
+            "expansion": "2"
+        },
+        {
+            "name": "Sniper's Studded Leather",
+            "expansion": "3"
+        },
+        {
+            "name": "Stanching Buckler",
+            "expansion": "2"
+        },
+        {
+            "name": "Wilderness Studded Leather",
+            "expansion": "3"
+        },
+        {
+            "name": "Wooden Armor",
+            "expansion": "C"
+        },
+        {
+            "name": "Wooden Shield",
+            "expansion": "B"
+        }
+	],
+	"items": [
+		{
+			"name": "Alchemical Glue",
+			"expansion": "1"
+		},
+		{
+			"name": "Alchemist's Fire",
+			"expansion": "C"
+		},
+		{
+			"name": "Alkali Flask",
+			"expansion": "4"
+		},
+		{
+			"name": "Amulet of Fortitude",
+			"expansion": "B"
+		},
+		{
+			"name": "Amulet of Life",
+			"expansion": "B"
+		},
+		{
+			"name": "Anchor",
+			"expansion": "B"
+		},
+		{
+			"name": "Archer's Bracers",
+			"expansion": "1"
+		},
+		{
+			"name": "Astrolabe",
+			"expansion": "1"
+		},
+		{
+			"name": "Besmara's Bones",
+			"expansion": "2"
+		},
+		{
+			"name": "Blast Stone",
+			"expansion": "C"
+		},
+		{
+			"name": "Bottled Lightning",
+			"expansion": "5"
+		},
+		{
+			"name": "Bracers of Protection",
+			"expansion": "B"
+		},
+		{
+			"name": "Caltrops",
+			"expansion": "B"
+		},
+		{
+			"name": "Conch Shell",
+			"expansion": "B"
+		},
+		{
+			"name": "Crown of Swords",
+			"expansion": "2"
+		},
+		{
+			"name": "Crystal of Healing Hands",
+			"expansion": "3"
+		},
+		{
+			"name": "Emerald of Dexterity",
+			"expansion": "B"
+		},
+		{
+			"name": "Eye Patch",
+			"expansion": "B,C"
+		},
+		{
+			"name": "Fuse Grenade",
+			"expansion": "6"
+		},
+		{
+			"name": "Gloves of Dueling",
+			"expansion": "5"
+		},
+		{
+			"name": "Helpful Haversack",
+			"expansion": "1"
+		},
+		{
+			"name": "Jellyfish Cape",
+			"expansion": "2"
+		},
+		{
+			"name": "Jolly Roger",
+			"expansion": "2"
+		},
+		{
+			"name": "Liquid Ice",
+			"expansion": "2"
+		},
+		{
+			"name": "Magic Spyglass",
+			"expansion": "4"
+		},
+		{
+			"name": "Masterwork Tools",
+			"expansion": "B"
+		},
+		{
+			"name": "Nautical Charts",
+			"expansion": "B"
+		},
+		{
+			"name": "Net of Snaring",
+			"expansion": "4"
+		},
+		{
+			"name": "Noxious Bomb",
+			"expansion": "C"
+		},
+		{
+			"name": "Old Salt's Bandana",
+			"expansion": "B"
+		},
+		{
+			"name": "Onyx of Constitution",
+			"expansion": "B"
+		},
+		{
+			"name": "Pearl of Magic",
+			"expansion": "6"
+		},
+		{
+			"name": "Pearl of Wisdom",
+			"expansion": "B"
+		},
+		{
+			"name": "Periscope",
+			"expansion": "2"
+		},
+		{
+			"name": "Potion of Flying",
+			"expansion": "3"
+		},
+		{
+			"name": "Potion of Fortitude",
+			"expansion": "B"
+		},
+		{
+			"name": "Potion of Glibness",
+			"expansion": "B"
+		},
+		{
+			"name": "Potion of Healing",
+			"expansion": "B,C"
+		},
+		{
+			"name": "Potion of Heroism",
+			"expansion": "1"
+		},
+		{
+			"name": "Potion of Lucubration",
+			"expansion": "C"
+		},
+		{
+			"name": "Potion of the Ocean",
+			"expansion": "3"
+		},
+		{
+			"name": "Powder Horn",
+			"expansion": "B,C"
+		},
+		{
+			"name": "Powder Keg",
+			"expansion": "3"
+		},
+		{
+			"name": "Ring of Rat Fangs",
+			"expansion": "4"
+		},
+		{
+			"name": "Ring of Regeneration",
+			"expansion": "5"
+		},
+		{
+			"name": "Ring of the Beasts",
+			"expansion": "1"
+		},
+		{
+			"name": "Ring of the Sea Strider",
+			"expansion": "5"
+		},
+		{
+			"name": "Ring of Wave Walking",
+			"expansion": "1"
+		},
+		{
+			"name": "Ruby of Charisma",
+			"expansion": "B"
+		},
+		{
+			"name": "Rum Bottle",
+			"expansion": "B,C"
+		},
+		{
+			"name": "Sapphire of Intelligence",
+			"expansion": "B"
+		},
+		{
+			"name": "Sea Tyrant's Patch",
+			"expansion": "3"
+		},
+		{
+			"name": "Skeleton Anchor",
+			"expansion": "4"
+		},
+		{
+			"name": "Sniper Goggles",
+			"expansion": "4"
+		},
+		{
+			"name": "Spellmaster's Tricorne",
+			"expansion": "1"
+		},
+		{
+			"name": "Spyglass",
+			"expansion": "B"
+		},
+		{
+			"name": "Staff of Weather",
+			"expansion": "6"
+		},
+		{
+			"name": "Thieves' Tools",
+			"expansion": "B"
+		},
+		{
+			"name": "Token of Remembrance",
+			"expansion": "B"
+		},
+		{
+			"name": "Topaz of Strength",
+			"expansion": "B"
+		},
+		{
+			"name": "Tot Flask",
+			"expansion": "B,C"
+		},
+		{
+			"name": "Wand of Flame",
+			"expansion": "2"
+		},
+		{
+			"name": "Wizard's Hook",
+			"expansion": "5"
+		},
+		{
+			"name": "Worn Leather Skullcap",
+			"expansion": "B,C"
+		}
+	],
+	"allies": [
+        {
+            "name": "Acolyte",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Albatross",
+            "expansion": "5"
+        },
+        {
+            "name": "Ambrose \"Fishguts\" Kroop",
+            "expansion": "1"
+        },
+        {
+            "name": "Arronax Endymion",
+            "expansion": "5"
+        },
+        {
+            "name": "Audessa Reyquio",
+            "expansion": "4"
+        },
+        {
+            "name": "Avimar Sorrinash",
+            "expansion": "4"
+        },
+        {
+            "name": "Baby Triceratops",
+            "expansion": "6"
+        },
+        {
+            "name": "Barefoot Samms Toppin",
+            "expansion": "B"
+        },
+        {
+            "name": "Barracuda Aiger",
+            "expansion": "5"
+        },
+        {
+            "name": "Besmaran Priest",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Boatswain",
+            "expansion": "B"
+        },
+        {
+            "name": "Cabin Boy",
+            "expansion": "B"
+        },
+        {
+            "name": "Captain",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Carver",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Chanty Singer",
+            "expansion": "B"
+        },
+        {
+            "name": "Conchobhar Turlach Shortstone",
+            "expansion": "1"
+        },
+        {
+            "name": "Coral Capuchin",
+            "expansion": "1"
+        },
+        {
+            "name": "Corlan",
+            "expansion": "3"
+        },
+        {
+            "name": "Crimson Cogward",
+            "expansion": "1"
+        },
+        {
+            "name": "Cut-Throat Grok",
+            "expansion": "1"
+        },
+        {
+            "name": "Deckhand",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Dindreann",
+            "expansion": "3"
+        },
+        {
+            "name": "Dodo",
+            "expansion": "C"
+        },
+        {
+            "name": "Dolphin",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Dwarf Caiman",
+            "expansion": "C"
+        },
+        {
+            "name": "Ederleigh Baines",
+            "expansion": "4"
+        },
+        {
+            "name": "Fox",
+            "expansion": "C"
+        },
+        {
+            "name": "Giffer Tibbs",
+            "expansion": "B"
+        },
+        {
+            "name": "Haneilius Fitch",
+            "expansion": "3"
+        },
+        {
+            "name": "Heartbreak Hinsin",
+            "expansion": "B"
+        },
+        {
+            "name": "Imp",
+            "expansion": "3"
+        },
+        {
+            "name": "Jinx Eater",
+            "expansion": "B"
+        },
+        {
+            "name": "Joseph \"Jack\" Scrimshaw",
+            "expansion": "C"
+        },
+        {
+            "name": "Lady Cerise Bloodmourn",
+            "expansion": "4"
+        },
+        {
+            "name": "Lookout",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Mase Darimar",
+            "expansion": "4"
+        },
+        {
+            "name": "Master Gunner",
+            "expansion": "B"
+        },
+        {
+            "name": "Master of the Gales",
+            "expansion": "6"
+        },
+        {
+            "name": "Master-at-Arms",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Merrill Pegsworthy",
+            "expansion": "2"
+        },
+        {
+            "name": "Monkey",
+            "expansion": "3"
+        },
+        {
+            "name": "Old Salt",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Parrot",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Pierce Jerrell",
+            "expansion": "3"
+        },
+        {
+            "name": "Pteranodon",
+            "expansion": "4"
+        },
+        {
+            "name": "Quartermaster",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Rosie Cusswell",
+            "expansion": "1"
+        },
+        {
+            "name": "Rotgut",
+            "expansion": "2"
+        },
+        {
+            "name": "Royster McCleagh",
+            "expansion": "2"
+        },
+        {
+            "name": "Sailor",
+            "expansion": "B,C"
+        },
+        {
+            "name": "Sandara Quinn",
+            "expansion": "1"
+        },
+        {
+            "name": "Sefina",
+            "expansion": "4"
+        },
+        {
+            "name": "Slip",
+            "expansion": "3"
+        },
+        {
+            "name": "Snow Leopard",
+            "expansion": "C"
+        },
+        {
+            "name": "Surgeon",
+            "expansion": "B"
+        },
+        {
+            "name": "Swab",
+            "expansion": "B"
+        },
+        {
+            "name": "Tessa Fairwind",
+            "expansion": "3"
+        },
+        {
+            "name": "Tidepool Dragon",
+            "expansion": "1"
+        },
+        {
+            "name": "Turtle",
+            "expansion": "6"
+        }
+	],
+	"loot": [
+		{
+		    "name": "Aiger's Kiss",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Alise Grogblud",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Besmara's Tricorne",
+		    "expansion": "1"
+		},
+		{
+		    "name": "Brine's Sting",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Buccaneer's Breastplate",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Conch of the Tritons",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Crossbow of Retribution",
+		    "expansion": "6"
+		},
+		{
+		    "name": "Doubleshot Pepperbox",
+		    "expansion": "6"
+		},
+		{
+		    "name": "Farglass",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Howling Skull Armor",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Hurricane Crown",
+		    "expansion": "6"
+		},
+		{
+		    "name": "Immortal Dreamstone",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Impossible Bottle",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Jalhazar's Wheel",
+		    "expansion": "3"
+		},
+		{
+		    "name": "Lady Agasta Smythee",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Letter of Marque",
+		    "expansion": "3"
+		},
+		{
+		    "name": "Pirate's Favor",
+		    "expansion": "3"
+		},
+		{
+		    "name": "Quickened Ray",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Rickety Hake",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Ring of the Iron Skull",
+		    "expansion": "3"
+		},
+		{
+		    "name": "Scoundrel's Sword Cane",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Skyrocket Crossbow",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Svingli's Eye",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Totem Necklace",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Vailea",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Vindictive Harpoon",
+		    "expansion": "1"
+		}
+	],
+	"blessings": [
+		{
+		    "name": "Blessing of Abadar",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Achaekek",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Asmodeus",
+		    "expansion": "4"
+		},
+		{
+		    "name": "Blessing of Besmara",
+		    "expansion": "1"
+		},
+		{
+		    "name": "Blessing of Cayden Cailean",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Erastil",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Geryon",
+		    "expansion": "6"
+		},
+		{
+		    "name": "Blessing of Gorum",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Gozreh",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Hshurha",
+		    "expansion": "2"
+		},
+		{
+		    "name": "Blessing of Kelizandri",
+		    "expansion": "3"
+		},
+		{
+		    "name": "Blessing of Milani",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of Norgorber",
+		    "expansion": "5"
+		},
+		{
+		    "name": "Blessing of Pharasma",
+		    "expansion": "B,C"
+		},
+		{
+		    "name": "Blessing of the Gods",
+		    "expansion": "B,C"
+		}
+	]
+}
