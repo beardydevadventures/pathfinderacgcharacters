@@ -2,6 +2,51 @@
 
 This data is used for the Pathfinder CT ACG app available on [Android](https://play.google.com/store/apps/details?id=com.pathfinder.rotr&hl=en) and [IOS](https://itunes.apple.com/au/app/pathfinder-ct-acg/id922422511?mt=8). It has been created with the data found on the [paizo pdf character sheets]( http://paizo.com/products/btpy914x/discuss%26page%3D2%3FCommunity-Use-Package-Pathfinder-Adventure-Card-Game-Character-Sheets)
 
+## What has been done
+**Rise of the Runelords**  
+
+- [x] Deck List
+- [ ] Tup Promotional Character
+- [x] All Rise of the Runelords Base Set Characters
+- [x] All Rise of the Runelords Add-On Characters
+
+**Skull & Shackles**
+
+- [x] Deck List
+- [ ] Fleet Card (Not Doing yet: Requires Unique Entry)
+- [x] Ranzak Promotional Character
+- [x] All Skull & Shackles Base Set Characters
+- [x] All Skull & Shackles Add-On Characters
+
+**Wrath of the Righteous**
+
+- [x] Deck List
+- [ ] Champions of Mendev Card (Not Doing yet)
+- [ ] Redemption Card (Not Doing yet: Requires Unique Entry)
+- [x] Ekkie Promotional Character
+- [x] All Wrath of the Righteous Base Set Characters
+- [x] All Wrath of the Righteous Add-On Characters
+
+**Class Decks**  
+- [x] All Alchemist Characters
+- [x] All Barbarian Characters
+- [x] All Bard Characters
+- [ ] All Cleric Characters
+- [ ] All Druid Characters
+- [ ] All Fighter Characters
+- [ ] All Goblins Burn! Characters
+- [ ] All Goblins Fight! Characters
+- [ ] All Gunslinger Characters
+- [ ] All Inquisitor Characters
+- [ ] All Monk Characters
+- [ ] All Oracle Characters
+- [ ] All Paladin Characters
+- [ ] All Ranger Characters
+- [ ] All Rogue Characters
+- [ ] All Sorcerer Characters
+- [ ] All Witch Characters
+- [ ] All Wizard Characters
+
 ## Naming Conventions
 
 **Base Games and their Expansions** use an acronym of the game name followed by the data. The data for the base game and its expansions are all entered and are split between characters and cards.
