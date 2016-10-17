@@ -63,13 +63,15 @@ A sample is provided below of a character. Here is a breakdown of some things th
 
 **Numbers and Key Names**
 
-- diceNo \- The ID of the Dice to be used as base (list of ids below)
-- modAmt \- Amount of modifiers to show (If a strength allows up to +3 on the character sheet put 3)
-- For hand size desc is the starting hand size amount
-- startAmt \- The starting amount value
+- `diceNo` \- The ID of the Dice to be used as base (list of ids below)
+- `modAmt` \- Amount of modifiers to show (If a strength allows up to +3 on the character sheet put 3)
+- For hand size the `desc` key is the starting hand size amount
+- `startAmt` \- The starting amount value
+- `basic` is for the entry of the default character before a role is chosen
 
-**Dice List**
-The list of dice, currently found in Base Character json files. This will move to w new file eventually.  
+**Dice List**  
+The list of dice, currently found in Base Character json files. This will be moved to a new file eventually. 
+
 Note: First ID starts at 0 (so for a d6 the diceNo value would be 1)
 ```
 {	
@@ -82,11 +84,19 @@ Note: First ID starts at 0 (so for a d6 the diceNo value would be 1)
     ]
 }
 ```
-**Proficieny Checkboxes**
+**Proficieny Checkboxes**  
+These are the checkboxes used to display what the character is proficient with. Please make sure with each checkbox you increment the id number. (`profbox1` is the first checkbox and `profbox2` is the second)
+
+If the character is proficient on a character by default add `checked disabled=\"disabled\"` this will check the box and prevent the user from unchecking it.
+
+Please make sure the `id=\"profbox1\"` and `for=\"profbox1\"` match and are exactly the same for the prestige/role classes. This effects the display on the app and can be confusing if a user selects a role and the checkboxes change.
 ```
 <input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>
 ```
 **Power Checkboxes**
+These are the checkboxes displayed in the power section. Please make sure with each checkbox you increment the id number. ( so `powbox1` is the first checkbox and `powbox1` is the next checkbox added.
+
+Please make sure the `id=\"powbox1\"` and `for=\"powbox1\"` match and are exactly the same for the prestige/role classes. This effects the display on the app and can be confusing if a user selects a role. New power checkboxes after a role is chosen may appear before the original checkboxes in power descriptions.
 ```
 <input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>
 ```
