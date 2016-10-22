@@ -1,0 +1,557 @@
+{
+  "characters": {
+    "gronk": {
+      "name": "Gronk",
+      "class": "Male Halfling Cleric",
+      "description": "Gronk knows his name is unusual for an elf, but when a talking tree gives you a name, it’s sometimes best to listen. The Mierani Forest in northwestern Varisia is not only a home for many elves, but also many pines and redwoods. By exploring ways to shift his form, Gronk learned to commune with his forest brethren. As he grew older, he found his connection to the trees and creatures of his home wood strengthening. When his friends came to him with  dire warnings and portents, Gronk ventured out into the barren lands on a mission he still refuses to explain.",
+      "favcard": "none",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 2
+
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 5,
+          "bonus": [
+            {
+              "name": "Divine: wisdom +1"
+            },
+            {
+              "name": "Survival: wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to roll d10 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> d12) instead of your Strength or Constitution die for any check; you may recharge that card instead of discarding it if the check is against a card that has the Animal or Plant trait. You may bury an additional card to add another 1d8."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire or defeat a card that has the Animal or Plant (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or Aberration or Fey) trait, you may recharge a card from your discard pile."
+          }
+        ],
+        "woodwose" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to roll d10 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> d12) instead of your Strength or Constitution die for any check; you may recharge that card instead of discarding it if the check is against a card that has the Animal or Plant trait. You may bury an additional card to add another 1d8."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire or defeat a card that has the Animal or Plant (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or Aberration or Fey) trait, you may recharge a card from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you play a blessing on any Wisdom check, you may recharge it (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or shufﬂe it into your deck) instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>  When you play an ally (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or a weapon) for its power, you may recharge it instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you rebuild your character deck after a scenario, you may treat each ally that has the Animal trait as either an armor or an item (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a blessing)."
+          }
+        ],
+        "feral shifter" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to roll d10 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>d12) instead of your Strength or Constitution die for any check; you may recharge (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or reveal) that card instead of discarding it if the check is against a card that has the Animal or Plant trait (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label>or if the discarded card is a blessing). You may bury an additional card to add another 1d8."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire or defeat a card that has the Animal or Plant (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Aberration or Fey) trait, you may recharge a card from your discard pile."
+          },
+          {
+            "name":"",
+            "desc":"<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2  When you reset your hand at the end of the turn, you may recharge a random card from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may bury a card to shuffle 1d4+2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>1d4+4) cards from your discard pile into your deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> After you resolve an encounter, you may immediately discard (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or recharge) a card to move."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 2
+        }
+      ]
+    },
+    "lini": {
+      "name": "Lini",
+      "class": "Female Gnome Druid",
+      "description": "Lini has always had a way with wild creatures. More than once her enclave was threatened by some great beast, yet each time she soothed it and sent it on its way. As an adult, she chose to leave her druidic fellows behind and explore and help protect the wild places of the world. Since then, Lini has collected more than a dozen sticks, one from each of the forests she has visited. These sticks are a road map of her experiences, and each holds a wealth of memories for her",
+      "favcard": "Ally",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            },
+            {
+              "name": "Survival: Wisdom +3"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 3
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or end) of your turn, you may exchange a card in your hand for an ally that has the Animal trait in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may display an ally that has the Animal trait to use your Survival skill + 1d6. If you succeed at the check, recharge the displayed card; otherwise, bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or discard) it."
+          }
+        ],
+        "pack lord" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or end) of your turn, you may exchange a card in your hand for an ally that has the Animal trait in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may display an ally that has the Animal trait to use your Survival skill + 1d6. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> 2d6) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3d6) If you succeed at the check, recharge the displayed card; otherwise, bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or discard) it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> If a card that has the Animal trait is played on your check, blessings played on that check may add d12 instead of the normal die."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>You gain the skill Perception",
+            "bonus": [
+              {
+                "name": "Perception: Wisdom +2"
+              }
+              ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When a character at your location encounters a card that has the Animal trait, you may recharge (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or or reveal) a card to allow that character to evade the encounter (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>and you may immediately encounter the card.)"
+          }
+        ],
+        "menhir savant" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or end) of your turn, you may exchange a card in your hand for an ally that has the Animal trait in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may display an ally that has the Animal trait to use your Survival skill + 1d6(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>+4)If you succeed at the check, recharge the displayed card; otherwise, bury (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>or discard) it."
+          },
+          {
+            "name": "",
+            "desc": "When a character attempts a check to close your location, add 2 (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> 4)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  When you are at a closed location, instead of the frst exploration of your turn, you may recharge a spell to allow each other character to recharge a random card from his discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> At the end of your turn, if you are at a closed location, you may move to another closed location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start of your turn, if you are at a closed location, you may examine the top card of your deck, then recharge it or put it into your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you are at a closed location, reduce damage dealt to you to 0."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 2
+        }
+      ]
+    },
+    "maznar": {
+      "name": "Maznar",
+      "class": "Male Dwarf Druid",
+      "description": "Many dwarves think of themselves as keeping to the old ways. Maznar knows better. He was born of the earth, and he will return to the earth when his time among the living ends. When his jeering brothers, full of lust for gold and treasure, banished him from his family home, Maznar wandered the wild places and found solace there. For as long as earth and sky remain, Maznar’s faith will sustain him, and his forest friends will nourish and defend him. He can do no less in return.",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +1"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +3"
+            },
+            {
+              "name": "Survival: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of the frst exploration of your turn, you may bury a card that has the Divine trait to choose a character at your location and shufﬂe 1d4(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) random cards from her discard pile into her deck."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that has the Animal trait to add 1d4 to any check by a character at your location."
+          },
+          {
+            "name": "",
+            "desc": "You may discard a spell to search your deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your discard pile) for an ally that has the Animal trait and put it in your hand."
+          }
+        ],
+        "forest friend" : [
+          {
+            "name": "Hand Size",
+            "desc": 7,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of the frst exploration of your turn, you may bury (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or discard) a card that has the Divine trait to choose a character at your location and shufﬂe 1d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> +1) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +2) random cards from her discard pile into her deck."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that has the Animal trait to add 1d4 (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>+1) to any check by a character at your location."
+          },
+          {
+            "name": "",
+            "desc": "You may discard a spell to search your deck (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or your discard pile) for an ally that has the Animal trait and put it in your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start of your turn, each character may recharge (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or reveal) a card that has the Animal trait to draw a card. (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>If at least one other character does so, you may examine the top card of your location deck.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you would fail a check to acquire or defeat a card that has the Animal or Plant trait, you may recharge a card to evade the encounter. (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox11\"></label>If the recharged card has the Animal, Divine, or Plant trait, you may immediately explore again.)"
+          }
+        ],
+        "green faith acolyte" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of the frst exploration of your turn, you may bury a card that has the Divine trait to choose a character at your location and shufﬂe 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>+2) random cards from her discard pile into her deck."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that has the Animal trait to add 1d4 to any check by a character at your location."
+          },
+          {
+            "name": "",
+            "desc": "You may discard a spell to search your deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or your discard pile) for an ally that has the Animal trait and put it in your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> add 2 (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> 4) to your check to recharge a spell.."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> When you defeat a bane that has the Animal, Fey, or Plant trait, you may recharge a random card from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Reduce Poison damage dealt to you to 0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 1d6 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> 2d6) to your check against a bane that has the Aberration or Undead trait."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":5,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

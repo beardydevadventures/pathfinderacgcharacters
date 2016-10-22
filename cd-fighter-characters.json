@@ -1,0 +1,771 @@
+{
+  "characters": {
+    "flenta": {
+      "name": "Flenta",
+      "class": "Female Halfling Fighter",
+      "description": "Flenta always wanted to be a wizard. She studied, memorized, and practiced, but she still couldn’t cast spells. Now she passes herself off as a fghter with sorcerous skills, pretending to cast spells while activating magic items and performing sleight of hand. True wizards might thumb their noses at her methods, but she gets the job done. Deep down, Flenta hopes to unlock the magical potential she’s sure she possesses, whatever it takes.",
+      "favcard": "weapon or spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Acrobatics: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and has the Arcane trait and recharge it."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> For your combat check that has the Attack trait, you may use the skill.",
+            "bonus": [
+              {
+                "name": "Arcane: Intelligence +2"
+              }
+            ]
+          }
+        ],
+        "flenta pretender" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and has the Arcane trait and recharge it."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  For your combat check that has the Attack trait, you may use the skill",
+            "bonus": [
+              {
+                "name": "Arcane: Intelligence +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>After you reset your hand, you may discard 1 weapon or spell from your hand then draw 1 weapon from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> You may recharge a spell (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or an item that has the Magic trait) to add 1 plus its adventure deck number, if any, to your combat (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or non-combat) check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> You automatically succeed at your check to recharge (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or acquire) an item that has the Magic trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>When you play a blessing to add to an Intelligence check, you may add a d12 instead of the normal die."
+          }
+        ],
+        "martial adept" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt":3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait for its power, draw a random spell from the box that does not have an adventure deck number and has the Arcane trait and recharge it."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or shufﬂe it into your deck) instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  For your combat check that has the Attack trait, you may use the skill",
+            "bonus": [
+              {
+                "name": "Arcane: Intelligence +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>+1) Add 1d4 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+1) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+2)to a combat check by a character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 4) to your check to recharge (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or acquire) a boon that has the Magic trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you play a blessing to add to a Strength check, you may add a d12 instead of the normal die."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    },
+
+    "tontelizi": {
+      "name": "Tontelizi",
+      "class": "Male Gnome Fighter",
+      "description": "Tontelizi’s rough-and-tumble past began with a stint as an enforcer in his family’s shady business. Because of his short stature, some mocked him with the nickname “Legbreaker.”They soon found their ability to walk severely compromised. After the health of the family patriarch failed, all other aspirants to the status of crime lord mysteriously fell from contention. Now in semi-retirement, Tontelizi brings his special skills to the world of adventure. Woe betide those who cross him.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +3"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 4
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Survival: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead(<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> and add 1 die to your check)."
+          }
+        ],
+        "halberdier" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2)to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead(<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> and add 1 die to your check)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You may recharge a weapon to add 1d4 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+1) (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>+2)to a combat check by a character at another location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Reduce Combat damage dealt to (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>you or) another character at your location by 1."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> If a power allows you to reroll dice on your check, you may add 1d4 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>2d4) to the new result."
+          }
+        ],
+        "ledgreaker" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2)to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon that has the Polearm trait for its power, you may recharge it instead(<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> and add 1 die to your check)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2) When you defeat a monster, you may recharge an ally from your discard pile; if the ally has an adventure deck number, it must be lower than that of the currrent scenario."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you would fail a check to acquire an ally, you may bury a card to succeed."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  At the start of your turn, you may bury (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or discard) an ally to draw 3 cards."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  You may discard an ally to add 1 die to your check to defeat a monster (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or barrier) (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or to close a location)."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "valeros": {
+      "name": "Valeros",
+      "class": "Male Human Fighter",
+      "description": "Valeros is a good-hearted former mercenary whose longing for adventure convinced him to ﬂee an arranged betrothal to a farmer’s daughter. He trained himself in swordplay and spent many years as a mercenary, but now he fghts for those in need. Though noble of heart and fercely loyal, Valeros hides such sentiments under a jaded and crass demeanor, frequently  observing that there’s nothing better than “an evening of hard drinking and soft company.”",
+      "favcard": "Weapon or Ally",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +3"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +1"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +3"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Reveal an ally from your hand to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+1)(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2)to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or shufﬂe it into your deck) instead.."
+          }
+        ],
+        "daredevil" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Reveal an ally from your hand to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+1)(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1)to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or armor) for its power, you may recharge it (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or shufﬂe it into your deck) instead.."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>When another character at your location is dealt damage, you may reduce that damage by 1 (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> 2)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When another character at your location encounters a monster, you may bury a card. That character evades the monster; you encounter it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you play Blessing of Cayden Cailean, you may add a d12 in place of the normal die  (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>and you may recharge the blessing instead of discarding it)."
+          }
+        ],
+        "liberator" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Reveal an ally from your hand to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+1)(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1)to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon for its power, you may recharge it (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or shufﬂe it into your deck) instead.."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> You may discard a weapon (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or or armor) to recharge a random ally from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>  Before you are dealt damage, you may display 1 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 2) (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> any number of) allies; after you are dealt damage, return them to your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> After you banish an ally, bury a random ally from the box."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    },
+
+    "vika": {
+      "name": "Vika",
+      "class": "Female Half-elf Fighter",
+      "description": "Apprenticed to a blacksmith growing up in Greengold, Vika quit her trade for the life of an adventurer. After a cache of tomes taught her how to smelt steel and cast magic, she found that a hammer is just as effective at forging a sword as it is at forging a crevasse in an orc’s skull. She hopes to retire to her shop when her adventuring days are done. Until then, the sound of metal on metal rings out through the dungeons she explores.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Craft: Strength +1"
+            },
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Disable: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +1"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 1
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Recharge a card that has the Bludgeoning trait to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or armor) for its power, you may recharge it instead."
+          }
+        ],
+        "blacksmith" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Recharge a card that has the Bludgeoning trait to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) to a combat check by another character at your location. (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>You may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or armor) for its power, you may recharge it (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or another card of the same type in your discard pile) instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you would bury an armor or weapon, you may discard it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 to any check to acquire a weapon or armor by (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> you or) another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> Reveal an armor to reduce all damage dealt to you by 1  (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>2)."
+          }
+        ],
+        "pulverizer" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Recharge a card that has the Bludgeoning trait to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) to a combat check by (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>+2) another character at your location. (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>You may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would discard a weapon<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or armor) for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 4) to your check to acquire a weapon."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>You automatically succeed at your check to close an empty location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>  When you attempt to defeat a barrier that has the Lock or Obstacle trait, you may recharge a card to use your Strength or Melee skill in place of any listed skill for your check."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":3,
+          "modAmt": 1
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

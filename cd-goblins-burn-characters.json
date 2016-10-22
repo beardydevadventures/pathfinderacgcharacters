@@ -1,0 +1,539 @@
+{
+  "characters": {
+    "mogmurch": {
+      "name": "Mogmurch",
+      "class": "Male Goblin Arsonist",
+      "description": "Things go boom when Mogmurch throws, Much more fun than using bows. Sometimes where the boom boom blows Is not my fault—that’s how it goes. Mixing things makes potions bubble. Longshanks buildings turn to rubble. Mogmurch best at causing trouble! If he won’t do, no other scrub’ll.",
+      "favcard": "Item",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Range: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +3"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 3
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to add 1d6 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+1) and the Fire trait to a combat check by a character at your location; if the discarded card has the Alchemical (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or Attack or Poison) trait, add an additional 1d6."
+          },
+          {
+            "name": "",
+            "desc": "When you banish a card that has the Alchemical trait for its power, you may draw a random card of the same type that has the Alchemical trait from the box and recharge it."
+          },
+          {
+            "name": "",
+            "desc": "While you play or would banish a spell that has the Fire trait, gain the skill Arcane equal to your Craft skill.",
+            "bonus": [
+              {
+                "name": "Arcane: Intelligence +2"
+              }
+            ]
+          }
+        ],
+        "tinderfoot" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to add 1d6 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+1) and the Fire trait to a combat check by a character at your location; if the discarded card has the Alchemical (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or Attack or Poison) trait, add an additional 1d6 (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> 2d6)."
+          },
+          {
+            "name": "",
+            "desc": "When you banish a card that has the Alchemical trait for its power, you may draw a random card of the same type that has the Alchemical trait from the box and (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> put it on top of your deck or) recharge it. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>You may instead draw 2; return 1 of them to the box.) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>You may instead draw 3; return 2 of them to the box.)"
+          },
+          {
+            "name": "",
+            "desc": "While you play or would banish a spell that has the Fire trait, gain the skill Arcane equal to your Craft skill."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Gain the skill Divine equal to your Craft skill; when you attempt a Divine check, you must first either recharge a blessing or discard the top card of your deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start of your turn, if you have fewer cards in hand than the number of cards that have the Fire (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>)or Alchemical) trait in your discard pile, you may recharge a random card that has the Fire trait from your discard pile."
+          }
+        ],
+        "fireslover" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt":3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard a card to add 1d6 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+1)(<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>+2)  and the Fire trait to a combat check by a character at your location; if the discarded card has the Alchemical (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or Attack or Poison) trait, add an additional 1d6 (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> and the card’s adventure deck number)."
+          },
+          {
+            "name": "",
+            "desc": "When you banish a card that has the Alchemical trait for its power, you may draw a random card of the same type that has the Alchemical trait from the box and recharge it."
+          },
+          {
+            "name": "",
+            "desc": "While you play or would banish a spell that has the Fire trait, gain the skill Arcane equal to your Craft skill."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you play a card that has the Fire trait on your combat check, you may display it next to your location. Add 1d6 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> 2d6) and the Fire trait to combat checks by characters at that location. At the start of your turn, bury that card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  Add the number of cards that have the Fire trait in your discard pile to your check that invokes the Fire trait. (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> If you add at least 1, ignore a bane’s immunity to Fire for that check.)"
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 2,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    },
+
+    "poog": {
+      "name": "Poog",
+      "class": "Male Goblin Warcaster",
+      "description": "Poog say Zarongel is the best, He help burn things and heal the rest. Zarongel’s favor makes Poog blessed. And Poog also stab you with knife if you make fun of how he isn’t good at riding animals. Sorry. Poog is best at rhyming. Master of poetic timing. Do you hear the words which I’m ingLoriously... ingratious... ingrown... Blasted words! I stab you with knife too!",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +1"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            },
+            {
+              "name": "Survival: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When another character plays a blessing on your check, after the check she may shufﬂe 1 random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or 2 random cards) from her discard pile into her deck."
+          },
+          {
+            "name": "",
+            "desc": "Add 1d6 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +1) to your check that invokes the Animal or Fire trait."
+          },
+          {
+            "name": "",
+            "desc": "After you bury, discard, recharge, or reveal a boon that has the Animal trait for its power banish it, then you may (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> recharge a random card from your discard pile and) draw a card."
+          }
+        ],
+        "leecher" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" /><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When another character plays a blessing on your check, after the check she may shufﬂe 1 random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or 2 random cards) from her discard pile into her deck. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Then shufﬂe a random card from your discard pile into your deck.)"
+          },
+          {
+            "name": "",
+            "desc": "Add 1d6 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +1) to your check that invokes the Animal or Fire (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or Elf, Human, or Slashing) trait."
+          },
+          {
+            "name": "",
+            "desc": "After you bury, discard, recharge, or reveal a boon that has the Animal trait for its power, banish it, then you may (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> recharge a random card from your discard pile and) draw a card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you play a card that has the Zarongel trait to add dice to a check, add an additional d4 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> d8, and you may add the Fire trait)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> At the start of your turn, you may exchange a card in your hand with a card that has the Zarongel (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or Animal or Fire) trait in the discard pile of another character at your location."
+          }
+        ],
+        "hash slinger" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" /><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name":"",
+            "desc":"When another character plays a blessing on your check, after the check she may shufﬂe 1 random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or 2 random cards) from her discard pile into her deck."
+          },
+          {
+            "name": "",
+            "desc":"Add 1d6 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>+1) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2)  to your check that invokes the Animal or Fire trait."
+          },
+          {
+            "name": "",
+            "desc": "After you bury, discard, recharge, or reveal a boon that has the Animal trait for its power, banish it, then you may (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> recharge a random card from your discard pile and) draw a card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> Instead of the first exploration of your turn, you may choose a character at your location to banish a card that has the Animal (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> or Divine) trait from his discard pile, then each character at your location may recharge up to 2 (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or 3) random cards from her discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> At the start of your turn, if you have more cards in your discard pile than another character at your location has, you may reset your hand."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "zibini": {
+      "name": "Zibini",
+      "class": "Female  Goblin Fortune-Teller",
+      "description": "Hooba dooba! Me Zibini, Sorcerous like magic genie! Reads your organs teeny-weeny, Tells a fortune awfully spleeny. Watch me put on purply robe And gaze into big glassy globe. Into your future Z will probe—Unless you is a gobliphobe.",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Perception: wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 1,
+          "bonus": [
+            {
+              "name": "Divine: Charisma +1"
+            },
+            {
+              "name": "Knowledge: Charisma +0"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any character) discards any number of cards as damage, you may examine the top card of his deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or his location deck)."
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may use your Divine skill + 2d4 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  3d4) and add the Attack, Magic, and Mental traits; a character at your location is dealt 1 Mental damage that may not be reduced. This counts as playing a spell."
+          }
+        ],
+        "the great" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or any character) discards any number of cards as damage, you may examine the top card (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or 2 cards) of his deck (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>or his location deck)(<input id=\"powbox17\" type=\"checkbox\" /><label for=\"powbox17\"></label> and you may shufﬂe any non-villain cards you examined into another deck of the same type)."
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may use your Divine skill + 2d4 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> d4) and add the Attack, Magic, and Mental traits; a character at your location is dealt 1 Mental damage that may not be reduced. (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  You may increase the damage to 2 to additionally ignore a monster’s immunity to the Mental trait on the check.) This counts as playing a spell"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>At the start of a character’s turn, if the top card of the blessings discard pile is a blessing, you may exchange it with the top card of the blessings deck (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> Then you may shuffle the blessings deck.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the end of your turn, you may attempt to recharge a random spell in your discard pile (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or from the discard pile of another character at your location to your deck)."
+          }
+        ],
+        "and gobbly" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" /><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or any character) discards any number of cards as damage, you may examine the top card of his deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or his location deck). (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> Then you may shufﬂe that deck.)"
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may use your Divine skill + 2d4 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>3d4) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>4d4) and add the Attack, Magic, and Mental traits; a character at your location is dealt 1 Mental damage that may not be reduced. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Any character at your location may banish (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or bury) an ally from his discard pile to evade his encounter."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Instead of the first exploration of your turn, if your location deck contains only 1 card (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or 2 cards), you may attempt to close your location."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":4,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

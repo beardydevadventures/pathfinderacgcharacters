@@ -1,0 +1,487 @@
+{
+  "characters": {
+    "feiya": {
+      "name": "Feiya",
+      "class": "Female Human Witch",
+      "description": "Claimed by witches in the frozen reaches of Irrisen, young Feiya witnessed untold terrors as she learned her captors’ craft. Her freedom eventually came with the help of an unlikely liberator, a wise fox who helped her elude the witches’ pursuit. Now free to choose her own path, Feiya travels where she pleases, joined by her vulpine companion Daji. Although she’s still bafﬂed      by some aspects of civilized life, her eerie magics help her overcome nearly any challenge.",
+      "favcard": "spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Knowledge: intelligence +2"
+            }
+          ]
+        },
+
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location attempts a check to acquire an ally or defeat a barrier (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or a monster), you may recharge a card to reduce the diffculty of that check by 1 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>2) plus the card’s adventure deck number."
+          },
+          {
+            "name": "",
+            "desc": "When you fail to defeat a non-villain, non-henchman monster, you may recharge a spell to shufﬂe the monster into a random (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any) other open location deck."
+          }
+        ],
+        "winter witch" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location attempts a check to acquire an ally or defeat a barrier (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or a monster), you may recharge a card to reduce the diffculty of that check by 1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) plus the card's adventure deck number. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>If the check to defeat is against a bane that is immune to the Cold or Fire trait, ignore those immunities.)"
+          },
+          {
+            "name": "",
+            "desc": "When you fail to defeat a non-villain, non-henchman monster, you may recharge a spell to shufﬂe the monster into a random (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any) other open location deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>When you play a spell that would add the Acid, Fire, Electricity, or Poison trait, you may add the Cold trait instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>For your Dexterity or Acrobatics non-combat check, you may use your Arcane skill and add the Cold trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>You may discard any number of cards to add 1(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>2) to the result of your check after the roll (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or to reduce Cold or Fire damage dealt to you by 4) for each card discarded."
+          }
+        ],
+        "beast-bonder" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "When a character at your location attempts a check to acquire an ally or defeat a barrier (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or a monster), you may recharge a card to reduce the diffculty of that check by 1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>2) plus the card's adventure deck number."
+          },
+          {
+            "name": "",
+            "desc": "When you fail to defeat a non-villain, non-henchman monster (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or fail to acquire an ally that has the Animal, Arcane, or Vermin trait), you may recharge a spell to shufﬂe the monster into a random (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or any) other open location deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> On your turn, you may put a cohort (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or an ally that has the Arcane, Animal, or Vermin trait) on top of your deck to examine the top card of your location deck. (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Then you may discard a card to explore your location.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may bury (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or discard) a cohort (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or an ally that has the Arcane, Animal, or Vermin trait) to reduce damage dealt to you to 0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>When setting up, when you add cohorts to your hand, you may choose an additional Witch Class Deck cohort that has the Arcane trait and add it to your hand."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 4
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 1
+        },
+        {
+          "name": "cohort",
+          "startAmt": "DAJI",
+          "modAmt": 0
+        }
+      ]
+    },
+    "raheli": {
+      "name": "Reheli",
+      "class": "Female Samsaran Witch",
+      "description": "The nation of Zi Ha is the homeland of the blue-skinned Samsarans, known for their inherent goodness and generosity. That is something Raheli is willing to take advantage of. The longhaired witch has a peculiar talent of using her hair as a weapon, gathering up all available items and ﬂinging them with her tresses. Whose items those are is of little concern to her. She might ensorcell others to gain their permission, or just bonk them unconscious with their own stuff and move on.",
+      "favcard": "Item",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Disable: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may recharge a card to use your Dexterity skill + 1d8 and add the Magic trait and the Bludgeoning, Piercing, or Slashing trait. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>If you succeed at the check, you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "On your check to defeat (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or your check to acquire an item or a spell), you may recharge any number of items to add 1d4 for each item recharged (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>plus the items’ highest adventure deck number) to your check."
+          }
+        ],
+        "night-haired witch" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may recharge a card to use your Dexterity skill + 1d8 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 2d8) and add the Magic trait and the Bludgeoning, Piercing, or Slashing trait. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>If you succeed at the check, you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "On your check to defeat (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or your check to acquire an item or a spell), you may recharge any number of items to add 1d4 for each item recharged (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> plus the items' highest adventure deck number) to your check. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>hen you may shufﬂe your deck.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>On your Dexterity check, you may discard a spell to reroll the dice; take the new result."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>You may discard a spell or item to reduce Combat damage (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or any damage) dealt to you to 0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you fail to acquire a boon and would banish it, you may instead shuffle it back into (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or put it on top of) its location deck.)"
+          }
+        ],
+        "gravewalker" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may recharge a card to use your Dexterity skill + 1d8 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 2d8) and add the Magic trait and the Bludgeoning, Piercing, or Slashing trait. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> If you succeed at the check, you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "On your check to defeat (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or your check to acquire an item or a spell), you may recharge any number of items to add 1d4 for each item recharged (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>plus the items' highest adventure deck number) to your check. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>If the check invokes the Undead trait, add 1d6 for each item instead of 1d4.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> On your check that invokes the Undead (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or Cold, Mental, or Poison) trait, you may discard (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or recharge) a spell to reroll the dice; take the new result."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may treat non-villain monsters you defeat as if they have the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox11\"></label> You may banish a monster displayed next to your cohort to reduce damage dealt to you to 0  (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or to examine your location)."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 6,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "cohort",
+          "startAmt": "EACH SCENARIO,CHOOSE A WITCH CLASS DECK COHORT",
+          "modAmt": 0
+        }
+      ]
+    },
+
+    "kasmir": {
+      "name": "Kasmir",
+      "class": "Male Human witch",
+      "description": "Witchcraft may frighten the average village-dweller, but not when it comes with a gentle hand. Kasmir is a master of the healing arts, curing the sick and needy wherever he walks. He has been forced to leave many a town in Brevoy, not because he overstayed his welcome but because the need for his services outspanned his abilities. So he wanders the countryside, fearful of turning a blind eye to suffering, but knowing there will always be more of it.",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Perception: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "At the end of your explore step, you may discard a card to choose another character at your location to shufﬂe 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) random cards from his discard pile into his deck. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>If the discarded card is a spell, you may attempt its checks to acquire; if you succeed, recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire or recharge a spell, you may recharge a card to reduce the diffculty of that check by 1 plus the recharged card's adventure deck number. "
+          },
+          {
+            "name":"",
+            "desc":"<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> When you attempt a check to acquire or would banish a card that has the Healing trait, you may recharge a spell to gain the skill Divine: Intelligence +0."
+          }
+        ],
+        "hedge witch" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "At the end of your explore step, you may discard a card to choose another character at your location to shufﬂe 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) random cards from his discard pile into his deck. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>If the discarded card is a spell, you may attempt its checks to acquire; if you succeed, recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire or recharge a spell, you may recharge a card to reduce the diffculty of that check by 1 plus the recharged card's adventure deck number. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>If you succeed at the check, you may shufﬂe the spell into your deck.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>When you attempt a check to acquire or would banish a card that has the Healing trait, you may recharge. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or reveal) a spell (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or a boon that has the Arcane, Divine, or Magic trait) to gain the skill Divine: Intelligence +0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>At the start of your turn, you may discard a spell to draw a spell that has the Healing (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or Mental or Poison) trait from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>At the start of your turn, if you have no cards in your hand, you may draw a card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>When a character at your location attempts a check against a bane that is not a check to defeat, you may recharge a card to reduce the difficulty of that check by 1 plus the recharged card's adventure deck number."
+          }
+        ],
+        "hearthcaller" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "At the end of your explore step, you may discard a card to choose another character at your location to shufﬂe 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) random cards from his discard pile into his deck. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>If the discarded card is a spell,you may attempt its checks to acquire; if you succeed, recharge it instead.) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>If the discarded card has the Magic trait, you may do the same.)"
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire or recharge a spell (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or a blessing), you may recharge a card to reduce the diffculty of that check by 1 plus the recharged card's adventure deck number."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When you attempt a check to acquire or would banish a card that has the Healing trait, you may recharge a spell to gain the skill Divine: Intelligence +0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>On your check that has the Attack trait, you may add 2 and the Fire trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> On your check (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or a check by a character at your location) to defeat a barrier, you may recharge a spell (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or a blessing) to add your Wisdom or Survival skill and the Fire trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>At the end of your turn, you may examine the top 3 cards of your deck, then recharge 1 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or any number) of those cards."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "spell",
+          "startAmt": 6,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "cohort",
+          "startAmt": "EACH SCENARIO,CHOOSE A WITCH CLASS DECK COHORT",
+          "modAmt": 0
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

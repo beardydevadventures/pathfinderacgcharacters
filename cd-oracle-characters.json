@@ -1,0 +1,559 @@
+{
+  "characters": {
+    "alahazra": {
+      "name": "Alahazra",
+      "class": "Female Human Oracle",
+      "description": "At a young age, Alahazra was struck blind and began exhibiting supernatural powers. Accused of being a follower of the gods, she was driven from her atheist home in Rahadoum into the desert. Although the experience almost killed her, she emerged with the realization that her abilities came not from any deity, but from the powers of the sun and ﬂames. Now Alahazra travels the world, exposing any injustice she encounters with her scouring light.",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 6,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+              ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard the top card of your deck to use your Divine skill + 2d4 plus that card’s adventure deck number and add the Attack, Divine, Fire, and Magic traits. This counts as playing a spell.(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> If the discarded card is a spell, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you examine 1 or more cards from a character or location deck, you may examine an additional card."
+          },
+          {
+            "name": "",
+            "desc": "During your exploration, when you succeed at a check that invokes the Fire (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or Attack) trait, you may move after you resolve the encounter.",
+            "bonus": [
+              {
+                "name": "Craft: Intelligence +3"
+              }
+            ]
+          }
+        ],
+        "wandering prophet" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard the top card of your deck to use your Divine skill + 2d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> 2d6) plus that card's adventure deck number and add the Attack, Divine, Fire, and Magic traits. This counts as playing a spell. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> If the discarded card is a spell, you may recharge it instead.) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> If the discarded card is a blessing, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you examine 1 or more cards from a character or location deck, you may examine an additional card. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> Then you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "During your exploration, when you succeed at a check that invokes the Fire (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>) or Attack) trait, you may move after you resolve the encounter  (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> and/or then move another character to your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may recharge a spell to evade a barrier you encounter (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or to allow a character at your location to evade a barrier he encounters)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> At the <input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  start and/or) end of your turn, you may examine the top card of your location deck."
+          }
+        ],
+        "bride of the sun" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard the top card of your deck to use your Divine skill + 2d4 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>2d6) plus (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> twice) that card's adventure deck number and add the Attack, Divine, Fire (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>  or Force or Mental), and Magic traits to the check. This counts as playing a spell. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> If the discarded card is a spell, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you examine 1 or more cards from a character or location deck, you may examine an additional card (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> and then you may shufﬂe that deck)."
+          },
+          {
+            "name": "",
+            "desc": "During your exploration, when you succeed at a check that invokes the Fire (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or Attack) trait, you may move after you resolve the encounter."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you start your turn with no blessings in your hand, you may draw a card (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> and then you may recharge a card)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> At the start of your turn, you may examine the bottom card of your location deck."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 3
+        }
+      ]
+    },
+
+    "grazzle": {
+      "name": "Grazzle",
+      "class": "Male Lizardfolk Oracle",
+      "description": "The scalykind prowls the cataract of Oxjaw Falls, lying in wait for travelers benightedly crossing Osirion in small bands. Here, one voice decides if the omens are right for seizing upon prey. Grazzle, prophet of the reptile gods, notes the landing of a kingfsher as a propitious omen, then hacks it apart and bleaches its bones for further enlightenment. His warriors guard the altar to his cold-blooded pantheon when he embarks on visionquest, certain he will return with portents of violence and glory.",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 2,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 0,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Craft: Wisdom +1"
+            },
+            {
+              "name": "Survival: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> and you may shufﬂe it into your deck instead)."
+          },
+          {
+            "name": "",
+            "desc": "At the start of your turn, you may discard any number of cards from the top of your deck. Each other character may shufﬂe random cards from his discard pile into his deck; the total number of cards shufﬂed must not exceed (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> 1 plus) twice the number of cards you discarded."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>  Add 2 to your check that invokes the Attack trait."
+          }
+        ],
+        "bog medic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> and you may shufﬂe it into your deck instead)."
+          },
+          {
+            "name": "",
+            "desc": "At the start of your turn, you may discard any number of cards from the top of your deck. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> If any of those cards have the Divine trait, you may recharge them instead.) Each other character may shufﬂe random cards from his discard pile into his deck; the total number of cards shufﬂed must not exceed (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 1 plus) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 2 plus) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> 3 plus) twice the number of cards you discarded."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Add 2 to your check that invokes the Attack trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Instead of the frst exploration of your turn, you may shufﬂe a blessing (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox9\"></label> or a spell) into your deck to shufﬂe 1d4+1 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> +2) random cards from your discard pile into your deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Blessings you play on any check that invokes the Attack trait add d12 instead of the normal die; you may recharge them instead of discarding them."
+          }
+        ],
+        "bone diviner" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> and you may shufﬂe it into your deck instead)."
+          },
+
+          {
+            "name":"",
+            "desc":"At the start of your turn, you may discard any number of cards from the top of your deck. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> If any of those cards have the Divine trait, you may recharge a random card (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or 2 random cards) from your discard pile.) Each other character may shufﬂe random cards from his discard pile into his deck; the total number of cards shufﬂed must not exceed (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 1 plus) twice the number of cards you discarded."
+          },
+          {
+            "name": "",
+            "desc":"<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Add 2 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> 4) to your check that invokes the Attack trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may recharge a card that has the Divine trait to examine the top card (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or top 2 cards) of a location deck at any occupied location (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> and during this examination, you may ignore any powers on the examined card )."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you would bury or discard an armor for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> When you would discard or bury a card to examine a location deck, you may recharge it instead."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 6,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "ramexes": {
+      "name": "Ramexes",
+      "class": "Male Pitborn Oracle",
+      "description": "In Kaer Maga, the City on the Cliff, the line between monsters and people is crudely drawn. Deep in Downmarket, those hunting answers they’d hide from their closest friends will routinely fnd themselves at the booth of Ramexes. This devil-touched seer claims, not without merit, to be able to see the worst things that will befall his customers. That has not slowed their tide. One man’s peril is another’s fortune, and Ramexes will happily take the coins of both.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Melee: Strength +3"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 0,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Diplomacy: charisma +2"
+            },
+            {
+              "name": "Divine: charisma +1"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster, you may examine the top card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or top 2 cards) of your location deck."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a card that has the Divine trait to add 1d8 and the Fire (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>   or Acid or Poison) trait to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "You may bury an ally from your discard pile to explore your location (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or to evade a bane you encounter)."
+          }
+        ],
+        "haruspex" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Alchemical or Firearm trait, if you would recharge it or shufﬂe it into your deck, you may put it on top of your deck instead. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  If you would bury or banish it, you may discard it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster, you may examine the top card (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or top 2 cards)  (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or 3 cards) of your  (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or any) location deck (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> and put them back in any order)."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a card that has the Divine trait to add 1d8 and the Fire (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or Acid or Poison) trait to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "You may bury an ally from your discard pile to explore your location (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or to evade a bane you encounter) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or to add your Charisma die to your check to close your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 4) to your check to recharge a spell."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> After you examine a location deck, you may examine the same number of cards from your character deck (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> and then you may shufﬂe your deck)."
+          }
+        ],
+        "warsighted" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster, you may examine the top card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or top 2 cards) of your location deck (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or recharge a random weapon from your discard pile)."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge(<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or reveal) a card that has the Divine trait to add 1d8 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +1) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> +2) and the Fire (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or Acid or Poison) trait to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "You may bury an ally from your discard pile to explore your location <input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or to evade a bane you encounter)(<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or to add 1 die to any check to defeat a henchman or a villain)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Add 1 die to your check to acquire a weapon or an armor."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> When you discard a weapon for its power, you may frst recharge a random card from your discard pile <input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or shufﬂe it into your deck)."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":4,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

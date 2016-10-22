@@ -1,0 +1,559 @@
+{
+  "characters": {
+    "koren": {
+      "name": "Koren",
+      "class": "Male Half-orc Paladin",
+      "description": "The child of two half-orc parents, Koren has always been an unusual half-orc. His parents raised him in a loving home, fostering his strong sense of responsibility and community, but witnessing the aftermath of an orc raid on a convent of Sarenrae taught him the power of hatred. He swore vengeance against his orc cousins, pledging to defend innocents and the devout from suffering. Today, Koren delivers others from pain by sharing their burdens. He channels his suffering into righteous fury.",
+      "favcard": "Pell or Armor",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 3
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 4
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Charisma +3"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When another character at your location is dealt damage, you may recharge an armor to reduce that damage by 2(<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)"
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +1) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> to any check by another character at your location. If that card is an armor (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  or a blessing), you may recharge it instead of discarding it."
+          }
+        ],
+        "gilded fist" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When another character at your location is dealt damage, you may recharge an armor to reduce that damage by 2 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3) plus that card's adventure deck number and add the Attack, Divine, Fire, and Magic traits. This counts as playing a spell. (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> If that damage is dealt by a bane that has the Undead trait, you may reveal that armor instead of recharging it.)"
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +1) to (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  your check or) any check by another character at your location. If that card is an armor (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or a blessing) (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or a spell), you may recharge it instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  Add 1d8 and the Magic trait to your check against a bane that has the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>  When you play a blessing on another character's check against a bane, you may recharge that blessing instead of discarding it. (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>  If the bane has the Undead trait, you may put that blessing on top of your deck instead of discarding it.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> You may treat any power that has the word Undead on this card or on any card you play as if it has the word Aberration or Outsider instead."
+          }
+        ],
+        "unflagging companion" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When another character at your location is dealt damage, you may recharge an armor to reduce that damage by 2(<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)"
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +1) to (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> your check or) any check by another character at your location. If that card is an armor (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a blessing), you may recharge it instead of discarding it. (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  If the character succeeds at the check, she may recharge a random card from her discard pile.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  After another character moves from your location, you may discard (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or recharge) a card to move to that character's location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  At the start or end of your turn, if a bane is displayed next to the deck of another character at your location, you may display it next to your deck instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> When a character at your location fails to acquire a boon, you may recharge (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or reveal) a blessing; she evades the boon and you immediately encounter it."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "raz": {
+      "name": "Raz",
+      "class": "Female Gnome Paladin",
+      "description": "Raz is the only gnome paladin she’s ever met. Therefore, she’s clearly the best gnome paladin there ever was. At an early age, Raz decided she wanted to be different from her mischievous kin. She did so by kicking bad guy butt and protecting the good guys. Sometimes bigger paladins try to tell Raz that she looks silly on her canine mount or that gnomes can’t wield lances. When this happens, Raz just smiles and charges into the fray. Somebody’s got to be the best. For Raz, today is the day to prove it.",
+      "favcard": "Ally",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) to your check. If that card has the Mount trait, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire a weapon or an armor (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  or an item or an ally), you may use your Diplomacy skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "When a character at another location encounters a monster, you may bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or discard) a card that has the Mount trait to allow that character to evade the monster; you then move to that location and encounter it."
+          }
+        ],
+        "dog rider knight" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +2) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +3) to your check. If that card has the Mount trait, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire a weapon or an armor (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or an item or an ally), you may use your Diplomacy skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "When a character at another location encounters a monster, you may bury (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or discard) a card that has the Mount trait to allow that character to evade the monster; you then move to that location and encounter it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or end) of your turn, you may discard a card from your hand to draw a card that has the Mount trait from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Add 2 (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> 4) to your check that has or is against a card that has the Polearm trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> When you would bury an armor for its power, you may discard (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> or recharge) it instead."
+          }
+        ],
+        "fair trader" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Heavy Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "You may discard the top card of your deck to add 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +2) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +3) to your check. If that card has the Mount trait, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check to acquire a weapon or an armor (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or an item or an ally), you may use your Diplomacy skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc":"When a character at another location encounters a monster (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or a weapon or an armor), you may bury(<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or discard) a card that has the Mount trait to allow that character to evade the monster; you then move to that location and encounter it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>  You may recharge a card that has the Mount trait to give a card to another character(<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> and that character may give you a card). This power may not be used during an encounter."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>  When you acquire (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or a character at your location acquires) a weapon or an armor (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> or a spell or an item), you may exchange it for a random card of the same type from the box."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    },
+
+    "seelah": {
+      "name": "Seelah",
+      "class": "Female Human Paladin",
+      "description": "As a starving young orphan, Seelah encountered a paladin and became fascinated by her shining helmet. She stole the helm, an act that led to the paladin’s death in a subsequent battle. In the aftermath, the guilt-stricken girl climbed onto the holy warrior’s pyre, only to be saved by the other paladins, who took her in and made her one of them. At frst, Seelah fought to atone for her deeds, but she has since become a full and devout champion of Iomedae, goddess of justice.",
+      "favcard": "Spell or Item",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 0,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Diplomacy: charisma +3"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or any) turn, you may choose another character at your location, then discard a card. That character shufﬂes 2 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  3) random cards from his discard pile into his deck."
+          },
+          {
+            "name": "",
+            "desc": "At the start of your turn, you may examine the top card of your location deck. If it is a boon, put it on the bottom of the deck (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  and add 1d6 to your next check this turn)."
+          }
+        ],
+        "faith healer" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or any) turn, you may choose another character at your location, then discard a card. That character shufﬂes 2 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  3) random cards from his discard pile into his deck. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Then you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "At the start of your turn, you may examine the top card of your location deck. If it is a boon,(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> encounter it or) put it on the bottom of the deck  (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> and add 1d6 to your next check this turn)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  When you would discard a card that has the Healing or Iomedae trait for its power, you may reveal a card that has the Divine trait to recharge it instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>  When a character at your location attempts a check before he acts, add 2 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> 4)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> At the start of another character's turn, you may recharge a blessing to move that character to your location. That character may not move during his move step."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> When a character at your location does not defeat a non-villain bane he encounters, you may recharge a card to put that bane on top of your location deck."
+          }
+        ],
+        "light of the sword" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your(<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or any) turn, you may choose another character at your location, then discard a card. That character shufﬂes 2(<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 3) random cards from his discard pile into his deck."
+          },
+          {
+            "name": "",
+            "desc": "At the start of your turn, you may examine the top card of your location deck. If it is a boon,(<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> you may) put it on the bottom of the deck (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> and add 1d6 to your next check this turn)."
+          },
+          {
+            "name": "",
+            "desc": " <input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Add 2 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> 4) to your combat check that has the Sword trait; you may discard (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or recharge) a card to add another 1d8 and the Fire and Magic traits."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> At the end of your turn, you may exchange a card in your hand for a weapon (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or a spell) in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> At the start of each turn, you may recharge a card that has the Sword trait  <input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> or shufﬂe it into your deck)."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":3,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

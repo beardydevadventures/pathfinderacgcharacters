@@ -1,0 +1,574 @@
+{
+  "characters": {
+    "angban": {
+      "name": "Angban",
+      "class": "Male Dwarf Gunslinger",
+      "description": "Angban hails from the Sky Citadel of Dongun Hold, the dwarven fortress that invented frearms. At a young age, he learned the instability of black powder; as he grew older, he valued the stability it brought. At the Battle of the Warrens, he was decorated for scattering the ratfolk gunners seeking to loosen the dwarven grasp on Dongun. Through the hole in Angban’s tower shield, those ratfolk would see a solitary eye, then a muzzle ﬂash, then—if they were very lucky—a solitary eye again.",
+      "favcard": "Armor or Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Ranged: Dexterity +3"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +3"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play an armor to reduce damage dealt to you, reduce it by an additional 1 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, you may recharge a buried weapon that has the Firearm trait (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or a buried armor)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Gain the skill",
+            "bonus": [
+          {
+            "name": "Craft: Intelligence +3"
+          }
+        ]
+          }
+        ],
+        "gun tank" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play an armor to reduce damage dealt to you, reduce it by an additional 1 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, you may recharge (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or shufﬂe into your deck) a buried weapon that has the Firearm trait  (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or a buried armor)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Gain the skill (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  and the skill Melee: Strength +3)",
+            "bonus": [
+              {
+                "name": "Craft: Intelligence +3"
+              },
+              {
+                "name": "Melee: Strength +3"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Reduce damage dealt to a character at your location by 1  (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or by 3 if the damage is dealt by a bane before a character acts)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  At the start of your turn, you may recharge a card; if you do, you may draw a card. (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> you may then recharge a random card from your discard pile.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> n your check to defeat a barrier that has the Lock, Obstacle, or Trap trait, you may bury an armor to add 1d12; if you defeat the barrier, you may explore again."
+          }
+        ],
+        "living cannon" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play an armor to reduce damage dealt to you, reduce it by an additional 1 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, you may recharge a buried weapon that has the Firearm trait (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or a buried armor). (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> Then if none of the cards in your hand have the Firearm trait, you may recharge your hand.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Gain the skill Craft: Intelligence +3 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  Add 1d12 to your check to acquire or recharge a card that has the Ammunition trait.)",
+            "bonus": [
+              {
+                "name": "Craft: Intelligence +3"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you display a card that has the Ammunition trait for its power, you may draw a card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> You may recharge a card to add 1d4 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> +1) to a combat check by a character at another location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>  For the frst exploration of your turn, you may examine the top 2 (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> or 3) cards of your location deck. Choose 1 to encounter; you must choose a monster if you found any. Then shufﬂe the rest into the deck."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    },
+
+    "lirianne": {
+      "name": "Lirianne",
+      "class": "Female Half-Elf Gunslinger",
+      "description": "Lirianne always dreamed of becoming a shieldmarshal, like her father. With his help, she learned to draw schematics, engineer frearms, and quick-draw pistols. As a vigilant warden, Lirianne spent years safeguarding her homeland in Alkenstar… until a burst of wild magic blew in from the Spellscar Desert. The arcane catastrophe summoned bizarre creatures and struck down the only shieldwarden who stood against them. Wounded, she awoke on the shores of Avistan, where she now wanders a world far from home.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Ranged: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Craft: Intelligence +1"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Perception: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Firearm trait, if you would bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  or discard) (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or recharge) it or shufﬂe it into your deck, you may keep it and perform the required action with another card instead"
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a monster, you may examine the top card of your deck. If it has the Firearm trait, you may draw it; otherwise, recharge it. (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> You may then recharge a card that has the Firearm trait from your discard pile.)"
+          }
+        ],
+        "alkenstar marshal" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Firearm trait, if you would bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  or discard) (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or recharge) it or shufﬂe it into your deck, you may keep it and perform the required action with another card instead"
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a monster, you may examine the top card of your deck. If it has the Firearm trait, you may draw it; otherwise, recharge it.(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> You may then recharge a card that has the Firearm trait from your discard pile.) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> You may then recharge a card to draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> Add 1d6 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> 2d6) to your check to acquire or recharge an item or a weapon."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may bury a weapon or an item (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 4) or any boon) to recharge a card that has the Firearm trait from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>  When you would recharge a card that has the Firearm trait, you may instead shuffle it into your deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Treat your character powers that say “Firearm” as if they say “Ammunition or Firearm.”"
+          }
+        ],
+        "mysterious stranger" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Firearm trait, if you would bury (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  or discard) (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> or recharge) it or shufﬂe it into your deck, you may keep it and perform the required action with another card instead"
+          },
+
+          {
+            "name":"",
+            "desc":"When you encounter a monster, you may examine the top card of your deck. If it has the Firearm trait, you may draw it; otherwise, recharge it. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> You may then recharge a card that has the Firearm trait from your discard pile.)"
+          },
+          {
+            "name": "",
+            "desc":"<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> At the end of your turn (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or when your location is closed), you may move to a random open location; if you do, you may examine the top card of its location deck (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> and you may shuffle that deck)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may use your Ranged skill instead of your Diplomacy skill. (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you would discard an ally that lists Diplomacy in its check to acquire for its power, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> When the result of your check equals its difficulty, you may recharge a random card from your discard pile (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> and you may draw a card)."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "skizza": {
+      "name": "Skizza",
+      "class": "Male Ratfolk Gunslinger",
+      "description": "Skizza has earned a stellar set of decorations for his actions under Dongun Hold. He was awarded the Tin Fishbone for bravely ﬂeeing his post at the Battle of the Warrens as the rest of his clutchmates were slaughtered by vicious dwarves. Then, he gained the Splotched Tunic for courageously burying only half his company when he brought the ceiling down upon the dwarves as he vacated the Kharbur Tunnel. Through his heroic actions, Skizza has taught other ratfolk the value of making the most of their stunningly brief time on Golarion.",
+      "favcard": "Item or Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Disable: Dexterity +2"
+            },
+            {
+              "name": "Ranged: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Craft: Intelligence +1"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Alchemical or Firearm trait, if you would recharge it or shufﬂe it into your deck, you may put it on top of your deck instead. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  If you would bury or banish it, you may discard it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would fail a combat check, you may add 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>   1d8) and the Fire trait to the check; if you do, after the check, you are dealt 1d4 Fire damage. (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> If you still fail the check and it is against a monster that is not immune to the Mental trait, you may evade it.)"
+          }
+        ],
+        "tunnel rat" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Alchemical or Firearm trait, if you would recharge it or shufﬂe it into your deck, you may put it on top of your deck instead. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  If you would bury or banish it, you may discard it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would fail a combat check (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or a check to defeat a barrier that has the Lock, Obstacle, or Trap trait), you may add 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 1d8) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> 1d10) and the Fire trait to the check; if you do, after the check, you are dealt 1d4 Fire damage. <input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> If you still fail the check and it is against a monster that is not immune to the Mental trait, you may evade it.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or any character) If another character would fail a combat check, you may recharge a card to add 1d4 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> 1d8) and the Fire trait to the check. After the encounter, each character at that character's location is dealt 1d4 Fire damage."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When a character attempts a check to close a location, you may recharge a card that has the Alchemical or Firearm trait to add 1d10; if you do, each character at that location is dealt 1 Fire damage."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When one of your character powers deals Fire damage, reduce that damage by 1 (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> 2)."
+          }
+        ],
+        "gulch gunner" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 4
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you play a card that has the Alchemical or Firearm trait, if you would recharge it or shufﬂe it into your deck, you may put it on top of your deck instead. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  If you would bury or banish it, you may discard it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would fail a combat check, you may add 1d6 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>1d8) and the Fire trait to the check; if you do, after the check, you are dealt 1d4 Fire damage. (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  If you still fail the check and it is against a monster that is not immune to the Mental trait, you may evade it.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> When you attempt a check to acquire a weapon or an item, you may use your Craft skill instead of any listed skill (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> If you acquire the card, you may banish it to explore your location.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> At the start of your turn, you may discard (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>  or recharge) a random card; if you do, draw a random card that has the Alchemical or Firearm trait from your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  You may recharge a card that has the Alchemical or Firearm trait to evade your encounter."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt":4,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

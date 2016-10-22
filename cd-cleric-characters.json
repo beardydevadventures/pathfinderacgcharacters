@@ -1,0 +1,701 @@
+{
+  "characters": {
+    "heggal": {
+      "name": "Heggal",
+      "class": "Male Halfling Cleric",
+      "description": "On the holiday of the Harvest Feast, Heggal left his home to spread the word of the goddess Irori. Obsessed with the Master’s Rebus, he set himself to learning its truths. Sadly for his studies, he did this investigation in most of the taverns of the Inner Sea. He soon learned he was better suited to the worship of Cayden Cailean, god of intoxication. On Merrymead, in the fulsome company of wild revelers, he chose a new path, and he has never looked back.",
+      "favcard": "ally",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 6,
+          "modAmt": 3,
+          "bonus": [
+
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Heavy Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal an ally to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2)random cards from her discard pile into her deck, then discard the ally you revealed."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that lists Diplomacy in its check to acquire to add 1d4  (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+1) to your check."
+          }
+        ],
+        "rejuvenator" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal an ally (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or a card that has the Divine trait) to choose a character at your location. Shufﬂe 1d4+1(<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+3) random cards from her discard pile into her deck, then discard the ally you revealed."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that lists Diplomacy in its check to acquire to add 1d4 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>+1) to your check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>add 2 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>4) to your check against a card that has the Healing  (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or Divine) trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>When a character at your location plays Blessing of Cayden Cailean, that character may recharge a different random card from her discard pile."
+          }
+        ],
+        "life of the party" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal an ally to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from her discard pile into her deck, then discard the ally you revealed."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal an ally that lists Diplomacy in its check to acquire to add 1d4 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>+1) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+2) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>+3)to your check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start of your turn, you may discard 1 ally then add 1 weapon (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or card) from your discard pile to your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>When you play Blessing of Cayden Cailean, you may recharge it (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or shufﬂe it into your deck) instead of discarding it."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 2
+        }
+      ]
+    },
+    "hyra": {
+      "name": "Kyra",
+      "class": "Female Human Cleric",
+      "description": "Kyra and her family grew up near a small temple to Sarenrae, the goddess of healing, honesty, redemption, and the sun. When bandits attacked Kyra’s village, Sarenrae’s priestesses defended the innocent, driving off the raiders at the cost of their lives and their sanctuary. Standing in the burned ruin of the temple, young Kyra swore her life and sword arm to the goddess, promising mercy to the deserving and a quick death to those who spread in darkness.",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 6,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            },
+            {
+            "name": "Survival: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 0
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal a card that has the Divine trait to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from his discard pile into his deck, then discard the card you revealed."
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Sword trait, add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> and you may add the Magic trait (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and/or Fire trait)"
+          }
+        ],
+        "fireflower" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "nstead of your frst exploration on a turn, you may reveal a card that has the Divine trait to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from his discard pile into his deck, then discard the card you revealed."
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Sword trait, add 2 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>4) and you may add the Magic trait (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>and/or Fire trait)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>If you defeat a monster on your turn, and your check to defeat has the Sword trait, you may discard (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or recharge) a card to immediately explore again."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>You automatically succeed at your check to acquire a weapon (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or spell)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you play Blessing of Sarenrae, you may recharge it (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or shufﬂe it into your deck) instead of discarding it."
+          }
+        ],
+        "wastelander" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal a card that has the Divine trait to choose a character at your location. Shufﬂe 1d4+1  (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+3) random cards from his discard pile into his deck, then discard the card you revealed."
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Sword trait, add 2 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> 4)and you may add the Magic trait (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and/or Fire trait)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may recharge a card to add 2d4 to your Survival check (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or a Survival check by another character at your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you play Blessing of Sarenrae, you may recharge it (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or shufﬂe it into your deck) instead of discarding it.)"
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 6,
+          "modAmt": 2
+        }
+      ]
+    },
+    "zarlova": {
+      "name": "Zarlova",
+      "class": "Female Human Cleric",
+      "description": "In the city of Oenopion, Zarlova is a well-known professor at the Hive, an academy of wizards and clerics working in concert to discover mysteries left by the god Nethys. A master of The Book of Magic, Zarlova routinely ventures from the halls of academia to spread knowledge among the unenlightened. She is willing to sacrifce just about anything to advance her understanding of the world: money, goods, animals, or even parts of herself.",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Craft: Intelligence +2"
+            },
+            {
+              "name": "Knowledge: Intelligence +1"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When you would recharge a spell that has both the Divine and Attack traits, you may place it on top of your deck instead."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait, examine the top (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or bottom) card of your deck; if it is a spell (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or a blessing), you may add it to your hand."
+          }
+        ],
+        "scholar" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox5\" type=\"checkbox\"/><label for=\"profbox5\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you would recharge a spell that has both the Divine and Attack traits, you may place it on top of your deck instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>For your check to acquire an item (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or a blessing) (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label>or any boon), you may use your Knowledge skill (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label>+1) (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>+2)  in place of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>When you play Blessing of Nethys, you may recharge it (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or place it on top of your deck) instead of discarding it."
+          }
+        ],
+        "theurge" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 3
+          },
+          {
+            "name": "",
+            "desc": "When you would recharge a spell that has both the Divine (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or Arcane) and Attack traits, you may place it on top of your deck instead."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait, examine the top (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or bottom) card of your deck; if it is a spell (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or a blessing), you may add it to your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You gain the skill",
+            "bonus": [
+              {
+                "name": "Arcane: Intelligence +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>4) to your check to acquire (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or recharge) a spell."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  Add 2 (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> 4) to your check that has the Attack trait."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 2
+        }
+      ]
+    },
+    "tarlin": {
+      "name": "Tarlin",
+      "class": "Male Human Cleric",
+      "description": "As a recruit of the Eagle Knights, Tarlin has been assigned guardianship over caravans along the River Road, a path that leads to the demonically devastated Worldwound. He rallies both nobles and peasants to his side, inspiring them with the good word of Iomedae. Due to his talent with weapons, paladins consider him one of their own. Should the Light of the Sword call him to battle, he will brandish his weapon against all who stand in Iomedae’s way",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +1"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal a weapon that has the 2-Handed trait or a blessing to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from her discard pile into her deck, then discard the card you revealed."
+          },
+          {
+            "name": "",
+            "desc": "You may discard an armor to return a weapon from your discard pile to your hand."
+          }
+        ],
+        "nobel scion" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal a weapon that has the 2-Handed trait or a blessing to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from her discard pile into her deck, then discard the card you revealed. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> You may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "You may discard an armor to return a weapon from your discard pile to your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>You gain the skill Diplomacy: Charisma +2 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>+4)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you play an ally that has the Hireling or Aristocrat trait on a check, you may recharge it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>You may recharge an ally to recharge a random card (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox11\"></label>or a weapon of your choice) from your discard pile.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> When you play Blessing of Iomedae, you may recharge it (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>or shufﬂe it into your deck) instead of discarding it."
+          }
+        ],
+        "peacemaker" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Heavy Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "Instead of your frst exploration on a turn, you may reveal a weapon that has the 2-Handed trait or a blessing to choose a character at your location. Shufﬂe 1d4+1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+2) random cards from her discard pile into her deck, then discard the card you revealed."
+          },
+          {
+            "name": "",
+            "desc": "WYou may discard (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or recharge) an armor to return a weapon from your discard pile to your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When a character plays a blessing on your combat or Charisma check, that character may recharge a random card from her discard pile; if the played blessing is Blessing of Iomedae, the character may frst recharge the blessing."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>You may recharge a weapon to recharge a random card. (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or an ally of your choice) from your discard pile.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 2 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 4) to your check to acquire a weapon or an ally."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you play Blessing of Iomedae, you may recharge it (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>or shufﬂe it into your deck) instead of discarding it."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt":4,
+          "modAmt": 3
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

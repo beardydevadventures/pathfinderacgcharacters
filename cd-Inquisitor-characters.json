@@ -1,0 +1,596 @@
+{
+  "characters": {
+    "imrijka": {
+      "name": "Imrijka",
+      "class": "Female Half-orc Inquisitor",
+      "description": "Half-orc orphans aren’t a common sight in the church of Pharasma, goddess of fate and death. But Imrijka isn’t a common half-orc. Taken in by the church’s high exorcist and trained as an inquisitor, Imrijka brings judgment to all who would violate the laws of life and death, keeping close a mysterious disk that might hold the key to the truth of her parentage. Imrijka’s seen it all. She faces the future with courage and faith.",
+      "favcard": "Blessing or Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Acrobatics: Dexterity +1"
+            },
+            {
+              "name": "Ranged: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +2"
+            },
+            {
+              "name": "Perception: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster on your turn, you may recharge a card (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> then you may draw a card)."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard or bury a card that has the Ranged trait for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a card that has the Divine trait to add (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> 1 of that card’s traits and) 1d4 to a combat check by a character at another location (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  or your location)",
+            "bonus": [
+              {
+                "name": "Craft: Intelligence +3"
+              }
+            ]
+          }
+        ],
+        "gravecharge keeper" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or a barrier) on your turn, you may recharge a card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> then you may draw a card)."
+          },
+          {
+            "name": "",
+            "desc": "When you would discard or bury a card that has the Ranged trait for its power, you may recharge it instead."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a card that has the Divine trait to add (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 1 of that card's traits and) 1d4 to a (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> combat check by a character at another location (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  or your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> Add 2 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> 4) to your check to acquire or recharge a boon that has the Divine trait <input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or a weapon or an item)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> When you acquire a boon that has the Divine trait, you may bury it and shuffle 1d4 (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> +1) random cards from your discard pile into your deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> When you play a blessing that has the Pharasma trait, you may recharge it instead of discarding it."
+          }
+        ],
+        "fate's shepard" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or a barrier) on your turn, you may recharge a card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> then you may draw a card). (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> If the monster has the Undead trait, you may recharge a card from your discard pile instead.)"
+          },
+          {
+            "name": "",
+            "desc": "When you would discard or bury a card that has the Ranged trait for its power, you may recharge it (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> or shufﬂe it into your deck) instead."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a card that has the Divine trait to add (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> 1 of that card's traits and) 1d4 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> +1) (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> +2) (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>  to a combat check by a character at another location (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> or your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>Add 1d8 and the Divine and Magic traits to your check against a bane that has the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> When a character at your location resets his hand, you may bury a card to reduce his hand size to 1 until the end of the turn. (<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> If the card you would bury has the Divine trait, you may discard it instead.)"
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "salim": {
+      "name": "Lirianne",
+      "class": "Male Human Inquisitor",
+      "description": "Salim Ghadafar was originally an offcer in Rahadoum’s Pure Legion, purging any traces of religion from the nation’s shores, until tragedy led him to swear fealty to Pharasma. Watched over by the psychopomp usher Ceyanan, Salim now travels the planes as an unwilling inquisitor for the Lady of Graves, tracking down souls that have gone missing and bringing the death goddess’s justice to those who would cheat her.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 4
+        },
+        {
+          "name": "constitution",
+          "diceNo": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 1,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +0"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your check that invokes the Finesse trait, you gain the skill Melee: Dexterity +2.",
+            "bonus": [
+              {
+                "name": "Melee: Dexterity +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster on your turn, you may shufﬂe a random card from your discard pile into your deck.(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> If it is a weapon, you may put it on top of your deck instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> Add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 1d8) to your non-combat check against a bane."
+          }
+        ],
+        "death's heretic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your check that invokes the Finesse trait, you gain the skill Melee: Dexterity +2. (<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label>+4)",
+            "bonus": [
+              {
+                "name": "Melee: Dexterity +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster on your turn, you may shufﬂe a random card from your discard pile into your deck.(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> If it is a weapon, you may put it on top of your deck instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> Add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 1d8) to your non-combat check against a bane."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you would discard a weapon for its power, you may recharge it instead. (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  If the weapon is The Melted Blade, you may reveal it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> At the start of your turn, if you do not have a weapon in your hand, you may draw a card (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> If the weapon The Melted Blade is in your discard pile, you may shuffle it into your deck first.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> Add 1d4 (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> +1) to a combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> If the top card of the blessings discard pile has the Basic or Pharasma trait, add 1 die to your check to defeat."
+          }
+        ],
+        "reluctant priest" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox4\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox4\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your check that invokes the Finesse trait, you gain the skill Melee: Dexterity +2.",
+            "bonus": [
+              {
+                "name": "Melee: Dexterity +2"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "When you defeat a monster on your turn, you may shufﬂe a random card from your discard pile into your deck.(<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> If it is a weapon, you may put it on top of your deck instead.)"
+          },
+
+          {
+            "name":"",
+            "desc":"<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>  Add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> 1d8) to your non-combat check against a bane (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  or to your combat check against a bane that has the Outsider trait)."
+          },
+          {
+            "name": "",
+            "desc":"<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> On your turn, you may banish a spell to summon and play a spell that has the Divine trait and an adventure deck number no greater than 2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> 4)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> At the start of your turn, if you do not have a blessing (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> and a spell) in your hand, you may draw a card. (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> You may shuffle your deck first.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> Blessings that have the Pharasma trait played on your checks add d12 instead of the normal die."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 2
+        }
+      ]
+    },
+
+    "varril": {
+      "name": "Varril",
+      "class": "Male Half-elf Inquisitor",
+      "description": "Varril is a living illustration of the story of Shelyn, the goddess of beauty, and her half-brother Zon-Kuthon, god of destruction. Varril’s parents lived as priests of Shelyn, raising their son as a generous servant of Absalom’s people. This was all well and good until they revealed themselves as cultists of Zon-Kuthon and burned the temple to the ground. The terrible loss of life—which included his parents—has haunted Varril; he has pledged ever since to make up for their actions",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Divine: Wisdom +3"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +3"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" /><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your explore step, you may recharge a card to allow another character at your location to recharge a random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  or 2 random cards) from her discard pile."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt any check, you may discard (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or recharge) a card to use your Divine skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "After you defeat a bane on your turn, you may discard a card to explore your location."
+          }
+        ],
+        "knight of the rose" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" /><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your explore step, you may recharge a card to allow another character at your location to recharge a random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  or 2 random cards) from her discard pile. (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> Then you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "When you attempt any check, you may discard (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or recharge) a card to use your Divine skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "After you defeat a bane on your turn, you may discard a card to explore your location. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> If the discarded card is a spell, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> You may recharge a card that has the Divine trait to add 1d4 <input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> +1) to a non-combat check by another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label>  At the end of your (<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label>or any) turn, if you are the only character at your location, you may move. "
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox14\" type=\"checkbox\" /><label for=\"powbox14\"></label> If the top card of the blessings discard pile has the Shelyn trait, add 1 die to your check."
+          }
+        ],
+        "incorruptible" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox3\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox3\">Light Armors</label>",
+              "<input id=\"profbox5\" type=\"checkbox\" /><label for=\"profbox5\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "At the start of your explore step, you may recharge a card to allow another character at your location to recharge a random card (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>  or 2 random cards) from her discard pile."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt any check, you may discard (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or recharge) a card to use your Divine skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "After you defeat a bane on your turn, you may discard a card to explore your location. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> If the discarded card is a spell, you may recharge it instead.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> You may recharge a card that has the Divine trait to add 1d4 <input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> +1) to a non-combat check."
+          },
+         {
+            "name": "",
+            "desc": "<input id=\"powbox15\" type=\"checkbox\" /><label for=\"powbox15\"></label> Add 2 (<input id=\"powbox16\" type=\"checkbox\" /><label for=\"powbox16\"></label> 4) to a check by another character at your location (<input id=\"powbox17\" type=\"checkbox\" /><label for=\"powbox17\"></label> or your check) that invokes the Divine trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox19\" type=\"checkbox\" /><label for=\"powbox19\"></label> Your blessing that has the Shelyn trait adds d12 instead of the normal die."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

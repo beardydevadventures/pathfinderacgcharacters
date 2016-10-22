@@ -1,0 +1,543 @@
+{
+  "characters": {
+    "athnul": {
+      "name": "Athnul",
+      "class": "Female Human Monk",
+      "description": "Athnul’s journey from Tian Xia began inauspiciously. She washed up on the shores of Jalmeray three years ago, apparently the sole survivor of a shipwreck. After fnding a home in the Monastery of Untwisting Iron, she progressed through the ranks at a prodigious rate. The masters at the monastery praised Athnul’s pursuit of physical and mental perfection, but expressed a slight nervousness over her unorthodox techniques. Forever stoic, Athnul continues to practice her kata as she makes her way in the world.",
+      "favcard": "Blessing",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 5,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Perception: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your Melee combat check, you may recharge a card to add your Wisdom skill and the Bludgeoning trait (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>and you may add the Magic trait); you may not play a weapon on this check."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal a blessing to evade your encounter. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> Then you may recharge that blessing to explore your location.)"
+          }
+        ],
+        "monk of the ki fist" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your Melee combat check, you may recharge a card to add your Wisdom skill (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> plus the card’s adventure deck number) and the Bludgeoning trait (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>and you may add the Magic trait); you may not play a weapon on this check."
+          },
+          {
+            "name": "",
+            "desc": "You may reveal a blessing to evade your encounter. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> Then you may recharge that blessing to explore your location.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When you play a spell and would banish it, you may bury (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or discard) it instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  When you encounter a monster, you may examine the next card in your location deck; if it is a weapon or an armor (<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> or any boon), add 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>  plus its adventure deck number) to your checks to defeat that monster."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> Blessings played on your check to defeat a villain or henchman may add d12 instead of the normal die. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>  You may recharge any such blessing you played instead of discarding it.)"
+          }
+        ],
+        "keen strike monk" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your Melee combat check, you may recharge a card to add your Wisdom skill (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> plus the card’s adventure deck number) and the Bludgeoning trait (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>and you may add the Magic trait); you may not play a weapon on this check. <input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>  You may also add another 1d8 and the Mental trait.)"
+          },
+          {
+            "name": "",
+            "desc": "You may reveal a blessing to evade your encounter. (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> Then you may recharge that blessing to explore your location.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>  You gain the skill Divine: Wisdom +1 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> +3) .",
+            "bonus": [
+              {
+                "name": "Divine: Wisdom +1"
+              }
+            ]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> You may recharge a card to add 1d4 (<input id=\"powbox17\" type=\"checkbox\" /><label for=\"powbox17\"></label>  2d4) (<input id=\"powbox18\" type=\"checkbox\" /><label for=\"powbox18\"></label> 3d4) and the Piercing trait to a combat check by a character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> When you attempt a check to defeat a barrier, you may use your Fortitude skill instead of any listed skill."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 5,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 6,
+          "modAmt": 3
+        }
+      ]
+    },
+
+    "rooboo": {
+      "name": "Rooboo",
+      "class": "Female Tengu Monk",
+      "description": "Rooboo attracts stares wherever she goes. The good folk of Golarion aren’t used to seeing tengus at all, much less a bird-woman in mixed company wielding exotic weaponry. If the attention bothers Rooboo, she doesn’t show it. No one seems to know where such a creature learned the monastic arts, and Rooboo isn’t exactly forthcoming. When you’re a bird that walks around with a pair of sais, you don’t have to answer many questions.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Stealth: Dexterity +4"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Perception: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may reveal a weapon to use your Dexterity skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 1d8) plus the weapon’s adventure deck number; you may additionally discard that weapon to add another 1d6 and the weapon’s traits."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a barrier(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or a monster), you may evade it, then move; then end your turn."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check before you act (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or a check to acquire an item), you may use your Dexterity skill instead of any listed skill."
+          }
+        ],
+        "monk of the seven forms" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may reveal a weapon to use your Dexterity skill + 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>1d8) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>1d12) plus the weapon’s adventure deck number; you may additionally discard that weapon to add another 1d6 and the weapon's traits."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a barrier (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or a monster), you may evade it, then move; then end your turn."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check before you act <input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  or a check to acquire an item), you may use your Dexterity skill instead of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you defeat a monster on your turn, you may bury (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or discard) a card to explore your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  You gain the skill Acrobatics: Dexterity +2, and you may reduce Ranged Combat damage dealt to you to 0.",
+            "bonus":[{"name":"Acrobatics: Dexterity +2"}]
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you move during your turn (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  or any turn), you may add 1d6 to your next combat check on that turn."
+          }
+        ],
+        "flowing monk" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt":1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may reveal a weapon to use your Dexterity skill + 1d6 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>1d8) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>1d12) plus the weapon’s adventure deck number; you may additionally discard that weapon to add another 1d6 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>1d12 and the weapon's traits."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a barrier (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or a monster), you may evade it, then move; then end your turn."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt a check before you act <input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>  or a check to acquire an item), you may use your Dexterity skill instead of any listed skill."
+          },
+
+
+
+          {
+            "name":"",
+            "desc":"<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you are dealt Combat damage, reduce the damage by half (round down)"
+          },
+          {
+            "name": "",
+            "desc":"<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> During your encounter, when you are dealt damage before you act, you may add to your combat check the number of cards you discarded as damage."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> If you move during your move step, you may move after your frst exploration of the turn."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> Reduce damage dealt to another character at your location by 1 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 2)"
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 5,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 3
+        }
+      ]
+    },
+
+    "sajan": {
+      "name": "Sajan",
+      "class": "Male Human Monk",
+      "description": "Born into a warrior caste in a far-off land, Sajan turned his back on his duties to search for his twin sister, a fellow martial artist taken from their land by a distant lord. Under sentence of death in his homeland for desertion, he obsessively seeks clues that could reunite him with his twin. Sajan has traveled many lands and has been slow to trust the impulsive natives of those realms, but offers his insight and skill to any whom he deems worthy of joining him on his quest.",
+      "favcard": "Weapon",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 3,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Melee: Strength +2"
+            }
+          ]
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Acrobatics: Dexterity +3"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 1
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Slashing trait, add 2(<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> 2 )."
+          },
+          {
+            "name": "",
+            "desc": "Blessings played on your combat check may add d12 instead of the normal die; you may recharge any such blessing you played instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> Reduce Combat damage dealt to you by 1 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 3)"
+          }
+        ],
+        "temple guardian" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Slashing trait, add 2 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> 4).(<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> If you succeed at the check, you may draw a card.)"
+          },
+          {
+            "name": "",
+            "desc": "Blessings played on your combat check may add d12 instead of the normal die; you may recharge any such blessing you played instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> Reduce Combat damage (input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or all damage) dealt to you by 1 (input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> 3)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you encounter a monster, you may discard (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>  or recharge) a weapon to evade it. (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> You may put the monster under the top card of the location deck it came from.)"
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you begin your turn with no weapons in your hand, you may draw a card (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> then you may recharge a card)."
+          }
+        ],
+        "monk of the four winds" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If your combat check has the Slashing trait, add 2 (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> 4). (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> You may also add 1d8 and the Acid, Cold, Electricity, or Fire trait.)"
+          },
+          {
+            "name": "",
+            "desc": "Blessings played on your combat check may add d12 instead of the normal die; you may recharge any such blessing you played instead of discarding it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> Reduce Combat damage (input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or all damage) dealt to you by 1 (input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> 3)."
+          },
+
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> or recharge) When you would fail a combat check, you may bury a blessing (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or any card) to reroll the check; take the new result."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> After you die, you are no longer dead. Shufﬂe your buried cards into your deck, bury the top 5 cards of your deck, and end your turn. This power may be used only once per scenario."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> You may add 1d6 to any combat check that has the Acid, Cold, Electricity, or Fire trait attempted by <input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> you or) another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> You automatically succeed at checks required to move.."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "spell",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 3
+        }
+      ]
+    }
+  },
+
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

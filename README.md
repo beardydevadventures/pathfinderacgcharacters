@@ -31,20 +31,20 @@ This data is used for the Pathfinder CT ACG app available on [Android](https://p
 - [x] All Alchemist Characters
 - [x] All Barbarian Characters
 - [x] All Bard Characters
-- [ ] All Cleric Characters
-- [ ] All Druid Characters
-- [ ] All Fighter Characters
-- [ ] All Goblins Burn! Characters
-- [ ] All Goblins Fight! Characters
-- [ ] All Gunslinger Characters
-- [ ] All Inquisitor Characters
-- [ ] All Monk Characters
-- [ ] All Oracle Characters
-- [ ] All Paladin Characters
-- [ ] All Ranger Characters
-- [ ] All Rogue Characters
+- [x] All Cleric Characters
+- [x] All Druid Characters
+- [x] All Fighter Characters
+- [x] All Goblins Burn! Characters
+- [x] All Goblins Fight! Characters
+- [x] All Gunslinger Characters
+- [x] All Inquisitor Characters
+- [x] All Monk Characters
+- [x] All Oracle Characters
+- [x] All Paladin Characters
+- [x] All Ranger Characters
+- [x] All Rogue Characters
 - [ ] All Sorcerer Characters
-- [ ] All Witch Characters
+- [x] All Witch Characters
 - [ ] All Wizard Characters
 
 ## Naming Conventions
