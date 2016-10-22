@@ -114,10 +114,8 @@ A sample is provided below of a character. Here is a breakdown of some things th
 - `startAmt` \- The starting amount value
 - `basic` is for the entry of the default character before a role is chosen
 
-**Dice List**  
+**Dice IDs**  
 The list of dice, currently found in Base Character json files. This will be moved to a new file eventually. 
-
-Note: First ID starts at 0 (so for a d6 the diceNo value would be 1)
 ```
 {	
 	"dice": [
@@ -129,6 +127,14 @@ Note: First ID starts at 0 (so for a d6 the diceNo value would be 1)
     ]
 }
 ```
+Set `DiceNo` to the id the app will display relatice dice number  
+
+- 0 - d4
+- 1 - d6
+- 2 - d8
+- 3 - d10
+- 4 - d12
+- 5 - d20
 **Proficieny Checkboxes**  
 These are the checkboxes used to display what the character is proficient with. Please make sure with each checkbox you increment the id number. (`profbox1` is the first checkbox and `profbox2` is the second)
 
