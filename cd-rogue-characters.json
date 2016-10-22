@@ -68,7 +68,7 @@
           {
             "name": "",
             "desc": "For your check that has or is against a card that has the Finesse trait, gain the skill Melee: Dexterity +1.",
-            "bouns":[
+            "bonus":[
               {
                 "name": "Melee: Dexterity +1"
               }
@@ -278,7 +278,7 @@
           },
           {
             "name": "",
-            "desc": "YFor your combat check that has the Ranged trait, you may use a d10 for your Strength die"
+            "desc": "For your combat check that has the Ranged trait, you may use a d10 for your Strength die"
           }
         ],
         "crack shot" : [
@@ -342,7 +342,7 @@
           },
           {
             "name": "",
-            "desc": "YFor your combat check that has the Ranged trait, you may use a d10 for your Strength die"
+            "desc": "For your combat check that has the Ranged trait, you may use a d10 for your Strength die"
           },
           {
             "name": "",
@@ -601,7 +601,7 @@
       ]
     },
 
-    "wu shen": {
+    "wu-shen": {
       "name": "Wrathack",
       "class": "Female Half-orc Ranger",
       "description": "A half-orc through and through, Wrathack has memorized the entire collection of heroic poems called the Gorumskagat. She can expound on its bloodsoaked merits in great detail. She doesn’t tolerate preaching about goodness or the benign nature of the gods. Her clothing is decorated with bloody feathers plucked from the wings of angels. These trophies serve as a warning to any who dare speak lies about hope, kindness, or salvation. Wrathack is the reason why we can’t have nice things",
