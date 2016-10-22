@@ -8,12 +8,12 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "dexterity",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -23,12 +23,12 @@
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         },
         {
           "name": "intelligence",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -38,12 +38,12 @@
         },
         {
           "name": "wisdom",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "charisma",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         }
       ],
@@ -190,7 +190,7 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 4,
           "bonus": [
             {
@@ -200,22 +200,22 @@
         },
         {
           "name": "dexterity",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         },
         {
           "name": "wisdom",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 3,
           "bonus": [
             {
@@ -228,7 +228,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         }
       ],
@@ -372,27 +372,27 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "dexterity",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         },
         {
           "name": "constitution",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 1
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 3
         },
         {
           "name": "wisdom",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -402,7 +402,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 2,
+          "diceNo": 3,
           "modAmt": 1,
           "bonus": [
             {

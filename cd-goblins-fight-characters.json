@@ -3,17 +3,17 @@
     "ak": {
       "name": "AK",
       "class": "Male Goblin Runt",
-      "description": "Ak is king, the best survivor. No one else can be aliver! You can’t stab or shoot him dead Or put a pitchfork in his head Drown him, burn him, mutilate him, Cut his nose, defenestrate him, Punch him, scrunch him, stab his back—He’ll survive it. All hail Ak!",
+      "description": "Ak is king, the best survivor. No one else can be a liver! You can’t stab or shoot him dead Or put a pitchfork in his head Drown him, burn him, mutilate him, Cut his nose, defenestrate him, Punch him, scrunch him, stab his back—He’ll survive it. All hail Ak!",
       "favcard": "None",
       "skills": [
         {
           "name": "strength",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 2
         },
         {
           "name": "dexterity",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 4,
           "bonus": [
             {
@@ -23,7 +23,7 @@
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 4,
           "bonus": [
             {
@@ -33,12 +33,12 @@
         },
         {
           "name": "intelligence",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 2
         },
         {
           "name": "wisdom",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2,
           "bonus": [
             {
@@ -48,7 +48,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         }
       ],
@@ -189,12 +189,12 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "dexterity",
-          "diceNo": 6,
+          "diceNo": 4,
           "modAmt": 4,
           "bonus": [
             {
@@ -210,22 +210,22 @@
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 4
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 3
         },
         {
           "name": "wisdom",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         },
         {
           "name": "charisma",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 0
         }
       ],
@@ -390,12 +390,12 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3
         },
         {
           "name": "dexterity",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -405,7 +405,7 @@
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -415,12 +415,12 @@
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 1
         },
         {
           "name": "wisdom",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 3,
           "bonus": [
             {
@@ -430,7 +430,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         }
       ],

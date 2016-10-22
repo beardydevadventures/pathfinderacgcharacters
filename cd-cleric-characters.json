@@ -8,7 +8,7 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 5,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -18,22 +18,22 @@
         },
         {
           "name": "dexterity",
-          "diceNo": 4,
+          "diceNo": 1,
           "modAmt": 2
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 1,
           "modAmt": 3
         },
         {
           "name": "intelligence",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "wisdom",
-          "diceNo": 5,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -43,7 +43,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 6,
+          "diceNo": 3,
           "modAmt": 3,
           "bonus": [
 
@@ -57,7 +57,7 @@
         "basic" : [
           {
             "name": "Hand Size",
-            "desc": 6,
+            "desc": 5,
             "modAmt": 1
           },
           {
@@ -181,7 +181,7 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 6,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -191,22 +191,22 @@
         },
         {
           "name": "dexterity",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "constitution",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         },
         {
           "name": "wisdom",
-          "diceNo": 5,
+          "diceNo": 2,
           "modAmt": 4,
           "bonus": [
             {
@@ -219,7 +219,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         }
       ],
@@ -355,22 +355,22 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "dexterity",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 1
         },
         {
           "name": "constitution",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 3
         },
         {
           "name": "intelligence",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -383,7 +383,7 @@
         },
         {
           "name": "wisdom",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -393,7 +393,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         }
       ],
@@ -512,7 +512,7 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 5,
+          "diceNo": 3,
           "modAmt": 4,
           "bonus": [
             {
@@ -522,12 +522,12 @@
         },
         {
           "name": "dexterity",
-          "diceNo": 2,
+          "diceNo": 0,
           "modAmt": 1
         },
         {
           "name": "constitution",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -537,12 +537,12 @@
         },
         {
           "name": "intelligence",
-          "diceNo": 3,
+          "diceNo": 1,
           "modAmt": 2
         },
         {
           "name": "wisdom",
-          "diceNo": 4,
+          "diceNo": 2,
           "modAmt": 3,
           "bonus": [
             {
@@ -552,7 +552,7 @@
         },
         {
           "name": "charisma",
-          "diceNo": 2,
+          "diceNo": 1,
           "modAmt": 2
         }
       ],
@@ -560,8 +560,8 @@
         "basic" : [
           {
             "name": "Hand Size",
-            "desc": 6,
-            "modAmt": 1
+            "desc": 4,
+            "modAmt": 3
           },
           {
             "name": "Proficient",

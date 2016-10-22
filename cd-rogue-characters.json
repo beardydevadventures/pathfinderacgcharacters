@@ -43,15 +43,7 @@
         {
           "name": "wisdom",
           "diceNo": 2,
-          "modAmt": 2,
-          "bonus": [
-            {
-              "name": "Perception: wisdom +3"
-            },
-            {
-              "name": "Survival: wisdom +3"
-            }
-          ]
+          "modAmt": 2
         },
         {
           "name": "charisma",
@@ -408,8 +400,8 @@
       "skills": [
         {
           "name": "strength",
-          "diceNo": 1,
-          "modAmt": 3
+          "diceNo": 0,
+          "modAmt": 2
         },
         {
           "name": "dexterity",

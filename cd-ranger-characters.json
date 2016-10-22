@@ -629,8 +629,8 @@
         },
         {
           "name": "wisdom",
-          "diceNo": 2,
-          "modAmt": 3,
+          "diceNo": 1,
+          "modAmt": 2,
           "bonus": [
             {
               "name": "Survival: Wisdom +3"
