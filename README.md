@@ -135,6 +135,7 @@ Set `DiceNo` to the id the app will display relatice dice number
 - 3 - d10
 - 4 - d12
 - 5 - d20
+
 **Proficieny Checkboxes**  
 These are the checkboxes used to display what the character is proficient with. Please make sure with each checkbox you increment the id number. (`profbox1` is the first checkbox and `profbox2` is the second)
 
