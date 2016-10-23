@@ -393,10 +393,10 @@
     },
 
     "olenjack": {
-      "name": "Harsk",
-      "class": "Male Dwarf Ranger",
-      "description": "Harsk has always been an unusual sort of dwarf, preferring open skies to cramped underground halls, the ﬂexibility of a crossbow to the sturdiness of an axe, and tea to ale—it keeps his senses sharp. A gruff and driven dwarf, he left his home to fulfll a vow of justice to avenge his brother’s death at the hands of raiding giants. He has since learned much of the world, its lands, its beasts, and its vast array of people and places worth protecting.",
-      "favcard": "Weapon",
+      "name": "Olenjack",
+      "class": "Male Dwarf Rogue",
+      "description": "Olenjack worked his way up through the ranks of a guild he now runs with a  rm hand. He is patient and deliberate, able to keep multiple schemes and long-term plans in mind simultaneously. Olenjack never lets his acolytes forget that his dwarven lifespan is longer than that of his human enemies. Despite his formidable nature, he remains a pillar of his community, highly respected even by those who suspect his criminal ties.",
+      "favcard": "Ally",
       "skills": [
         {
           "name": "strength",
@@ -406,27 +406,22 @@
         {
           "name": "dexterity",
           "diceNo": 3,
-          "modAmt": 3,
+          "modAmt": 4,
           "bonus": [
             {
-              "name": "Melee: Dexterity +3"
+              "name": "Disable: Dexterity +1"
             }
           ]
         },
         {
           "name": "constitution",
-          "diceNo": 3,
-          "modAmt": 3,
-          "bonus": [
-            {
-              "name": "Fortitude: Constitution +3"
-            }
-          ]
+          "diceNo": 1,
+          "modAmt": 3
         },
         {
           "name": "intelligence",
-          "diceNo": 1,
-          "modAmt": 2
+          "diceNo": 3,
+          "modAmt": 1
         },
         {
           "name": "wisdom",
@@ -434,17 +429,19 @@
           "modAmt": 3,
           "bonus": [
             {
-              "name": "Perception: Wisdom +1"
-            },
-            {
-              "name": "Survival: Wisdom +1"
+              "name": "Perception: Wisdom +2"
             }
           ]
         },
         {
           "name": "charisma",
-          "diceNo": 0,
-          "modAmt": 1
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +2"
+            }
+          ]
         }
       ],
       "powers": {
@@ -458,23 +455,23 @@
             "name": "Proficient",
             "desc": [
               "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
             ]
           },
           {
             "name": "",
-            "desc": "When you would discard a weapon that has the Ranged trait for its power, recharge it instead."
+            "desc": "You may recharge an ally to evade a bane."
           },
           {
             "name": "",
-            "desc": "At the (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> start or) end of your turn, you may examine the top card of your location deck."
+            "desc": "When you attempt a check, you may display any number of allies; for each ally displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 2) to the check. Return the displayed allies to your hand before you reset it."
           },
           {
             "name": "",
-            "desc": "You may recharge a card to add 1d4(<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) to a combat check by a character at another location."
+            "desc": "On your turn, when you succeed at a combat check that has the Poison trait, after defeating the bane you may immediately explore again."
           }
         ],
-        "arblist" : [
+        "guild leader" : [
           {
             "name": "Hand Size",
             "desc": 5,
@@ -484,94 +481,82 @@
             "name": "Proficient",
             "desc": [
               "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
             ]
           },
           {
             "name": "",
-            "desc": "When you would discard a weapon that has the Ranged trait for its power, recharge it(<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or put it on top of your deck) instead."
+            "desc": "You may recharge an ally to evade a bane."
           },
           {
             "name": "",
-            "desc": "At the(<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> start or) end of your turn, you may examine the top card of your location deck."
+            "desc": "When you attempt a check, you may display any number of allies; for each ally displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 2) to the check. Return the displayed allies to your hand  (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label> or recharge them) before you reset it."
           },
           {
             "name": "",
-            "desc": "You may recharge a card to add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +1) (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +2) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> +3) to a combat check by a character at another location (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or your location)."
+            "desc": "On your turn, when you succeed at a combat check that has the Poison trait, after defeating the bane you may immediately explore again."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>  At the start of your turn, if you have no weapons in your hand, you may draw 1 card (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> or 2 cards)."
+            "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>Add 2 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> 4) to your check to acquire an ally (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or a boon)."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Add 2 to your check to acquire a weapon."
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you succeed at a Diplomacy check, you may draw a card (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and recharge a card)."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox12\" type=\"checkbox\" /><label for=\"powbox12\"></label> You gain the skill Divine: Wisdom +1.",
-            "bonus":
-            [
-              {
-                "name":" Divine: Wisdom +1"
-              }
-            ]
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you play a blessing to add to your Charisma (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or Dexterity) check, you may recharge it instead of discarding it."
           }
         ],
-        "vanguard" : [
+        "spider" : [
           {
             "name": "Hand Size",
             "desc": 5,
-            "modAmt": 2
+            "modAmt": 3
           },
           {
             "name": "Proficient",
             "desc": [
               "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
             ]
           },
           {
             "name": "",
-            "desc": "When you would discard a weapon that has the Ranged trait for its power, recharge it instead."
+            "desc": "You may recharge an ally to evade a bane."
           },
           {
             "name": "",
-            "desc": "At the(<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> start or) end of your turn, you may examine the top (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or bottom) card of your location deck."
+            "desc": "When you attempt a check, you may display any number of allies; for each ally displayed, add 1 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label> 2) to the check. Return the displayed allies to your hand before you reset it."
           },
           {
             "name": "",
-            "desc": "You may recharge a card to add 1d4 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +1) to a combat check by a character at another location."
+            "desc": "On your turn, when you succeed at a combat check that has the Poison trait, after defeating the bane you may immediately explore again."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> When you move during your move step, you may examine the top card of your new location deck (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> and shufﬂe it into that deck)."
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>Reduce all Poison damage dealt to you to 0. If a card that has the Poison trait would cause you to bury a card, you may recharge that card instead."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> When a monster deals damage to you before (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or after) you act, reduce that damage to 0."
+            "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>After you reset your hand, you may discard 1 card from your hand then add 1 card that has the Poison trait from the discard pile to your hand."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> When you would put a barrier faceup on top of a location deck, you may shufﬂe it facedown into the deck(<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  or put it facedown on the bottom of the deck) instead."
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>When you succeed at a Perception (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> or Diplomacy) check, you may draw a card (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> and recharge a card)."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox13\" type=\"checkbox\" /><label for=\"powbox13\"></label> You gain the skill Divine: Wisdom +1.",
-            "bonus":
-            [
-              {
-                "name":"Divine: Wisdom +1"
-              }
-            ]
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you play a blessing to add to your Dexterity (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> or Charisma) check, you may recharge it instead of discarding it."
           }
         ]
       },
       "cardslist": [
         {
           "name": "weapon",
-          "startAmt": 5,
-          "modAmt": 1
+          "startAmt": 2,
+          "modAmt": 2
         },
         {
           "name": "spell",
@@ -585,61 +570,59 @@
         },
         {
           "name": "item",
-          "startAmt": 3,
+          "startAmt": 4,
           "modAmt": 2
         },
         {
           "name": "ally",
-          "startAmt": 1,
-          "modAmt": 3
+          "startAmt": 5,
+          "modAmt": 2
         },
         {
           "name": "blessing",
-          "startAmt":1,
+          "startAmt":3,
           "modAmt": 1
         }
       ]
     },
 
     "wu-shen": {
-      "name": "Wrathack",
-      "class": "Female Half-orc Ranger",
-      "description": "A half-orc through and through, Wrathack has memorized the entire collection of heroic poems called the Gorumskagat. She can expound on its bloodsoaked merits in great detail. She doesn’t tolerate preaching about goodness or the benign nature of the gods. Her clothing is decorated with bloody feathers plucked from the wings of angels. These trophies serve as a warning to any who dare speak lies about hope, kindness, or salvation. Wrathack is the reason why we can’t have nice things",
+      "name": "Wu Shen",
+      "class": "Female Human Rogue",
+      "description": "Wu Shen loves death as if it were an actual person. She speaks of death as “her lover,” and listeners may mistakenly believe she is referring to a mortal. Each time she brings a monster to its grisly end, she savors a moment of hope that death will acknowledge her as its favorite. To challenge herself and prove her worthiness, she often whispers speci c and bizarre criteria for her kills, which onlookers mock at their peril.",
       "favcard": "Weapon",
       "skills": [
         {
           "name": "strength",
+          "diceNo": 0,
+          "modAmt": 2        
+        },
+        {
+          "name": "dexterity",
           "diceNo": 4,
           "modAmt": 4,
           "bonus": [
             {
-              "name": "Melee: Strength +1"
+              "name": "Acrobatics: Dexterity +2"
+            },
+            {
+              "name": "Disable: Dexterity +2"
             }
           ]
-        },
-        {
-          "name": "dexterity",
-          "diceNo": 1,
-          "modAmt": 2
         },
         {
           "name": "constitution",
-          "diceNo": 2,
-          "modAmt": 3,
-          "bonus": [
-            {
-              "name": "Fortitude: Constitution +2"
-            }
-          ]
-        },
-        {
-          "name": "intelligence",
-          "diceNo": 0,
+          "diceNo": 3,
           "modAmt": 2
         },
         {
+          "name": "intelligence",
+          "diceNo": 1,
+          "modAmt": 3
+        },
+        {
           "name": "wisdom",
-          "diceNo": 2,
+          "diceNo": 1,
           "modAmt": 3,
           "bonus": [
             {
@@ -649,12 +632,38 @@
         },
         {
           "name": "charisma",
-          "diceNo": 1,
-          "modAmt": 2
+          "diceNo": 0,
+          "modAmt": 1
         }
       ],
       "powers": {
         "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 4,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
+          },
+          {
+            "name": "",
+            "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) and the Poison trait to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "On your turn, you may discard a card to evade a boon; you may immediately explore again."
+          }
+        ],
+        "death whisperer" : [
           {
             "name": "Hand Size",
             "desc": 4,
@@ -664,103 +673,74 @@
             "name": "Proficient",
             "desc": [
               "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
             ]
           },
           {
             "name": "",
-            "desc": "When you defeat a monster, you may examine the bottom card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or bottom 2 cards) of its location deck."
+            "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2)."
           },
           {
             "name": "",
-            "desc": "You may recharge a weapon that has the 2-Handed trait to add 1d4 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) to a combat check by a character at your location."
+            "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) and the Poison trait to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "On your turn, you may discard (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or recharge) a card to evade a boon; you may immediately explore again."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you defeat a monster by 4 or more (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or 2 or more if your check has the Poison trait), you may draw 1 card (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or 2 cards)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you have fewer than 5 cards in your deck and you play a blessing, you may recharge the blessing instead of discarding it."
           }
+          
         ],
-        "doombringer" : [
+        "prey stalker" : [
           {
             "name": "Hand Size",
             "desc": 4,
-            "modAmt": 3
+            "modAmt": 2
           },
           {
             "name": "Proficient",
             "desc": [
               "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
+              "<input id=\"profbox2\" type=\"checkbox\"/><label for=\"profbox2\">Weapons</label>"
             ]
           },
           {
             "name": "",
-            "desc": "When you defeat a monster, you may examine the bottom card (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or bottom 2 cards) of its location deck."
+            "desc": "For your check that has or is against a card that has the Finesse trait, you gain the skill Melee: Dexterity +1."
           },
           {
             "name": "",
-            "desc": "You may recharge a weapon that has the 2-Handed trait to add 1d4 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> +1) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label> +2)to a combat check by a character at your location."
+            "desc": "If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) and the Poison trait to your combat check."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> You gain the skill Diplomacy: Charisma +2.",
-            "bonus":
-            [
-              {
-                "name":"Diplomacy: Charisma +2"
-              }
-            ]
+            "desc": "On your turn, you may discard (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or recharge) a card to evade a boon (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>and banish it); you may immediately explore again."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> When you would discard a weapon that has the 2-Handed trait for its power, you may recharge it(<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> or shufﬂe it into your deck) instead."
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>At the (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>start or) end of your turn, you may examine the top card of your location deck. If it is a boon, you may put it on the bottom of the deck."
           },
           {
             "name": "",
-            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> Add 1d8 (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 1) to your check to defeat a bane that has the Outsider (or <input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label> Undead) trait."
-          }
-        ],
-        "sentry" : [
-          {
-            "name": "Hand Size",
-            "desc": 4,
-            "modAmt": 3
-          },
-          {
-            "name": "Proficient",
-            "desc": [
-              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
-              "<input id=\"profbox2\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox2\">Weapons</label>"
-            ]
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>Add 2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>4) to your check to defeat a barrier or close a location."
           },
           {
             "name": "",
-            "desc": "When you defeat (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label> or another character at your location defeats) a monster, you may examine the bottom card (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label> or bottom 2 cards) of its location deck (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>  and return them in any order)."
-          },
-          {
-            "name": "",
-            "desc": "You may recharge a weapon that has the 2-Handed trait to add 1d4 (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label> +1) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label> +2) to a combat check by a character at your location."
-          },
-          {
-            "name": "",
-            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label> You gain the skill Diplomacy: Charisma +2.",
-            "bonus":
-            [
-              {
-                "name":"Diplomacy: Charisma +2"
-              }
-            ]
-          },
-          {
-            "name": "",
-            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label> When you start your turn with no cards in your hand, you may draw 1 card (or <input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label> 2 cards)."
-          },
-          {
-            "name": "",
-            "desc": "<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>  After you close a location, you may move."
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you play a blessing on your check to defeat a villain or henchman, add a d12 in place of the normal die."
           }
         ]
       },
       "cardslist": [
         {
           "name": "weapon",
-          "startAmt": 5,
+          "startAmt": 3,
           "modAmt": 3
         },
         {
@@ -770,22 +750,22 @@
         },
         {
           "name": "armor",
-          "startAmt": 2,
-          "modAmt": 2
-        },
-        {
-          "name": "item",
-          "startAmt": 3,
+          "startAmt": 1,
           "modAmt": 1
         },
         {
+          "name": "item",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
           "name": "ally",
-          "startAmt": 1,
-          "modAmt": 2
+          "startAmt": 2,
+          "modAmt": 1
         },
         {
           "name": "blessing",
-          "startAmt":4,
+          "startAmt": 4,
           "modAmt": 1
         }
       ]
