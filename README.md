@@ -43,9 +43,9 @@ This data is used for the Pathfinder CT ACG app available on [Android](https://p
 - [x] All Paladin Characters
 - [x] All Ranger Characters
 - [x] All Rogue Characters
-- [ ] All Sorcerer Characters
+- [x] All Sorcerer Characters
 - [x] All Witch Characters
-- [ ] All Wizard Characters
+- [x] All Wizard Characters
 
 ## Naming Conventions
 
@@ -115,26 +115,14 @@ A sample is provided below of a character. Here is a breakdown of some things th
 - `basic` is for the entry of the default character before a role is chosen
 
 **Dice IDs**  
-The list of dice, currently found in Base Character json files. This will be moved to a new file eventually. 
-```
-{	
-	"dice": [
-    	"d4",
-    	"d6",
-    	"d8",
-    	"d10",
-        "d12"
-    ]
-}
-```
-Set `DiceNo` to the id the app will display relatice dice number  
+Set `DiceNo` to the id the app will display the relative dice number  
 
-- 0 - d4
-- 1 - d6
-- 2 - d8
-- 3 - d10
-- 4 - d12
-- 5 - d20 (This may be a future addition)
+- 1 - d4
+- 2 - d6
+- 3 - d8
+- 4 - d10
+- 5 - d12
+- 6 - d20 (This may be a future addition)
 
 **Proficieny Checkboxes**  
 These are the checkboxes used to display what the character is proficient with. Please make sure with each checkbox you increment the id number. (`profbox1` is the first checkbox and `profbox2` is the second)

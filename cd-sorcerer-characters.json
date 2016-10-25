@@ -1,0 +1,662 @@
+{
+  "characters": {
+    "amaryllis": {
+      "name": "Amaryllis",
+      "class": "Female Halfling Sorcerer",
+      "description": "Amaryllis, a relaxed and personable hal ing, doesn’t like seeing people get hurt. She trusts her powers to get her through danger alive, but still carries a burden of guilt for the friends she couldn’t save. Hiding her doubt under a veneer of constant cheerfulness and good humor, she’s fond of using magic to delight others and make friends. The Baslwief reworks festival hasn’t been the same since she took up a life of adventure.",
+      "favcard": "spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Acrobatics: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 2,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If you fail a check that has the Arcane trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any check), you may bury a card from your hand to ignore the result and reroll the dice. You must take the second result."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, after (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and before) you reset your hand, you may attempt to recharge a spell in your discard pile."
+          }
+        ],
+        "primalist" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If you fail a check that has the Arcane trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any check), you may bury a card from your hand (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or a random card from your discard pile) to ignore the result and reroll the dice. You must take the second result."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, after (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and before) you reset your hand, you may attempt to recharge a spell in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>After you reset your hand, you may shuffle your deck (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>and you may shuffle your location deck)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>Reduce Electricity (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and Fire) damage dealt to you by 1d4."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When you play a Basic blessing, add a d12 in place of the normal die. (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>If the result was odd, you may recharge the blessing)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>Before you draw your starting hand, your hand size is increased by 1d4 until the end of the scenario."
+          }
+        ],
+        "luckstealer" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "If you fail a check that has the Arcane trait (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or any check), you may bury (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or discard) a card from your hand (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or the top card of your deck) to ignore the result and reroll the dice (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>and add 1d4). You must take the second result."
+          },
+          {
+            "name": "",
+            "desc": "At the end of your turn, after (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>and before) you reset your hand, you may attempt to recharge a spell in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>Reduce Electricity (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and Acid and Cold) damage dealt to you by 1 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>2)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you play a Basic blessing, add a d12 in place of the normal die."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 3
+        }
+      ]
+    },
+    "qualzar": {
+      "name": "Qualzar",
+      "class": "Male Gnome Sorcerer",
+      "description": "Qualzar’s heritage includes mischievous fey who tie shoelaces together, curdle milk, and make nuisances of themselves. He claims to not understand why others find his humor malicious, but in truth, he doesn’t care. He’s willing to hurt others for the sake of a pun or punch line, and he’s got a book of plucked fairy wings to prove it. He mostly inflicts his whimsy on evil monsters, but he’s willing to assume everyone’s an evil monster until proven otherwise.",
+      "favcard": "spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Perception: Wisdom +2"
+            }
+          ]
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) and add the Attack, Magic, and Mental traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a monster, you may evade it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>and put it on the top of the location deck it came from). This counts as playing a spell that has the Arcane and Mental traits."
+          }
+        ],
+        "impeller" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+4) and add the Attack, Mental (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Force) and Magic traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a monster, you may evade it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>and put it on the top of the location deck it came from). This counts as playing a spell that has the Arcane and Mental traits."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>When you would shuffle a monster into a location deck on your turn, you may shuffle it into a random open location deck instead."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Reduce Combat damage dealt to you by 2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>3)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>When you succeed at a check to recharge a spell, you may instead recharge a spell from your discard pile."
+          }
+        ],
+        "mesmerist" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) and add the Attack, Magic, and Mental traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "When you encounter a monster, you may evade it (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>and put it on the top of the location deck it came from). This counts as playing a spell that has the Arcane and Mental traits."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>You automatically succeed at your check to recharge a spell (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or an item that has the Magic trait)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you take damage before you act, you may discard (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or recharge) a card to reduce that damage to 0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Add 2 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>4) to your check to acquire an ally or to defeat a summoned monster."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>You gain the skill Stealth: Charisma +2."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    },
+    "seoni": {
+      "name": "Seoni",
+      "class": "Female Human Sorcerer",
+      "description": "Born into a clan of nomadic wanderers, Seoni wears dozens of runic tattoos that tell the ancient stories of her people and aid her in drawing upon their arcane powers. Quick thinking and with a plan for every situation, she proudly exhibits the marks of her people and endlessly seeks new understanding of her magical abilities. She travels the world, dispelling myths that her people are nothing more than liars and thieves by righting injustices wherever she finds them.",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Charisma +2"
+            },
+            {
+              "name": "Diplomacy: Charisma +1"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) and add the Attack, Force, and Magic traits. This counts as playing a spell. "
+          },
+          {
+            "name": "",
+            "desc": "Add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>4) to your check to acquire a boon that has the Magic trait. "
+          }
+        ],
+        "dragon initiate" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+5) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+8) and add the Attack, Force (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or Acid), and Magic traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "Add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>4) to your check to acquire a boon that has the Magic trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>Reduce Combat damage (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or all damage) dealt to you by 2."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>At the end of your turn (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or when you close a location), you may bury (<input id=\"powbox11\" type=\"checkbox\" /><label for=\"powbox11\"></label>or recharge) a spell to move."
+          }
+        ],
+        "tattooed mystic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+4) and add the Attack, Force, and Magic traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "Add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>4) to your check to acquire a boon that has the Magic trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you attempt to acquire a boon, you may use your Knowledge skill in place of any listed skill for your check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>You gain the skill Craft: Charisma +1."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>After you are dealt Acid, Cold, Electricity, or Fire damage, you may draw 1 card (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or 2 cards)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>You may bury a card to add its adventure deck number to your check."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 0
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 4,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 5,
+          "modAmt": 2
+        }
+      ]
+    },
+    "valendron": {
+      "name": "Valendron",
+      "class": "Male Elf Sorcerer",
+      "description": "Valendron hails from the elven nation of Kyonin. When he was an infant, he and his mother were caught outside in a storm, where they were struck by a bolt of lightning. Though his mother died in the blast, he survived, and as a youth, he began to develop arcane powers. He believes that storms and natural disasters eliminate the weak, allowing the strong to survive. Now he’s set out on his own to find others like himself.",
+      "favcard": "Spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Stealth: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Charisma +2"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 1
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) and add the Attack, Electricity, and Magic traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a spell to move at the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or to reduce Combat damage dealt to you by 2)."
+          }
+        ],
+        "lightning reaver" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) and add the Attack, Electricity (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or Force), and Magic traits. (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>If the card has the Magic trait, you may add an additional 1d6.) This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a spell to move at the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or to reduce Combat damage dealt to you by 2) (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>3)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Reduce Electricity damage dealt to you to 0."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You automatically succeed at your check to recharge a spell that has the Attack trait."
+          }
+        ],
+        "wind walker" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" /><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "For your combat check, you may discard a card to use your Arcane skill + 1d6 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>+1) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>+2) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+3) and add the Attack, Electricity (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or Cold), and Magic traits. This counts as playing a spell."
+          },
+          {
+            "name": "",
+            "desc": "You may recharge a spell to move at the end of your turn (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or to reduce Combat damage dealt to you by 2)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you move other than during your move step, one character at your location may move with you."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>Add 1d8 and the Swashbuckling trait to your check to defeat a barrier that has the Obstacle trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>You automatically succeed at your check to recharge (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>and acquire) a spell that has the Arcane trait and does not have the Attack trait."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 4,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 4,
+          "modAmt": 2
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}

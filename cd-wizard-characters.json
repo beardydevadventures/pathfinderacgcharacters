@@ -1,0 +1,677 @@
+{
+  "characters": {
+    "darago": {
+      "name": "Darago",
+      "class": "Male Human Wizard",
+      "description": "The power of the dead courses through Darago’s thin veins. It’s a rare wizard who can traf c with the unliving and retain most of his soul, but so far, Darago has resisted the baser desires of most necromancers. Still, his chilling voice and devilish sense of humor will surprise even the most hardened adventurers. After all, he will happily battle at the side of any adventurer while she lives... and perhaps for a short time thereafter.",
+      "favcard": "spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Fortitude: Constitution +2"
+            }
+          ]
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Intelligence +2"
+            },
+            {
+              "name": "Knowledge: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "charisma",
+          "diceNo": 2,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again."
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>2d4) and the Magic trait to your check to defeat a bane that has the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When you defeat a monster that has the Undead trait and would banish it, you may put it in your hand. You may banish a monster from your hand to add 1d4 to your check."
+          }
+        ],
+        "necromancer" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 3
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again."
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>2d4) and the Magic trait to your check to defeat a bane that has the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When you defeat a monster that has the Undead trait (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or any monster) and would banish it, you may put it in your hand. You may banish a monster from your hand to add 1d4 (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>+1) (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+2) to your check (<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>or a check by any character at your location)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>Add 1 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>2) (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>3) to your check to recharge a card."
+          }
+        ],
+        "soul warden" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again."
+          },
+          {
+            "name": "",
+            "desc": "Add 1d4 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>2d4) (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>2d6) and the Magic trait to your check (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or a check by any character at your location) to defeat a bane that has the Undead trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When you defeat a monster that has the Undead trait and would banish it, you may put it in your hand. You may banish a monster from your hand (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>to draw a card or) to add 1d4 to your check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>After you defeat a bane that has the Undead trait, you may examine the top card of your location deck (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>and you may shuffle that deck)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Add 1 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>2) to your check to recharge a card."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 1
+        },
+        {
+          "name": "ally",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 2,
+          "modAmt": 2
+        }
+      ]
+    },
+    "ezren": {
+      "name": "Ezren",
+      "class": "Male Human Wizard",
+      "description": "After learning that the father whose name he’d spent most of his adult life trying to clear was indeed guilty, Ezren abandoned his former life and became a wizard. Finding no masters willing to take on an apprentice of his age, he devoted himself to unlocking the mysteries of magic alone. His studies soon revealed a true aptitude for the arcane arts, and he now seeks to explore the world he neglected for so long.",
+      "favcard": "spell",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 2,
+          "modAmt": 3
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 5,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Intelligence +2"
+            },
+            {
+              "name": "Knowledge: Intelligence +1"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +1"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell, you may recharge it (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it in your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again, or you may give it to another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When another character at your location attempts a combat check that has the Arcane trait, add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3) to it."
+          }
+        ],
+        "transmogrifier" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 3
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell, you may recharge it (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it in your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again, or you may give it to another character at your location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When another character at your location attempts a combat check that has the Arcane trait, add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3) (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>4) to it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When you fail to defeat a non-henchman, non-villain monster, you may return it to the box and add a random monster from the box to its location."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>you acquire or) another character acquires a boon, that character may banish it to draw 1 random non-Basic (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>and non-Elite) boon of that type from the box."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>Before you reset your hand, you may reveal a spell to treat your hand size as 3, 7, or 10 until the end of the turn."
+          }
+        ],
+        "hedge wizard" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell, you may recharge it (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or put it in your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you acquire a card that has the Magic trait during your exploration, you may immediately explore again, or you may give it to another character at your location (<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>or you may do both)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>When another character at your location attempts a combat check that has the Arcane trait, add 2 (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>3) to it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>When a character at your location acquires a card that has the Magic trait, that character may immediately recharge it."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>Add 1 (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>2) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>3) to your Arcane or Knowledge check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>You may discard a card that has the Arcane (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or Magic) trait to add 1 die to any check by another character."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 1,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 8,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 3,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 0,
+          "modAmt": 0
+        }
+      ]
+    },
+    "melindra": {
+      "name": "Melindra",
+      "class": "Female Gnome Wizard",
+      "description": "In another life, the well-educated Melindra might have ended up in a reputable career as a university wizard, but when you’re educated by the spymasters of Vellumis, you don’t end up reputable. Melindra in ltrated the highest levels of the city’s politics, becoming the power behind quite a few thrones. It’s not that she’s working both for and against your side. When you’re in her presence, you won’t even know which side you’re working for.",
+      "favcard": "Spell or Item",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Disable: Dexterity +2"
+            },
+            {
+              "name": "Stealth: Dexterity +2"
+            }
+          ]
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Intelligence +2"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 3,
+          "modAmt": 2
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "To evade a bane, you may succeed at a Stealth check with a difficulty equal to 8 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>5) plus twice the adventure deck number of the current scenario, if any."
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or an item), you may put it in your hand."
+          }
+        ],
+        "shadowcaster" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 3
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "To evade a bane, you may succeed at a Stealth check with a difficulty equal to 8 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>5) plus twice the adventure deck number of the current scenario, if any."
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or an item), you may put it in your hand (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or recharge it)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>When you evade a bane, you may return it to the top of (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or under the top card of) its location deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When another character encounters a bane, you may recharge a spell to move."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>Add 2 (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>4) to your check to recharge (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>or acquire) a spell."
+          }
+        ],
+        "mage spy" : [
+          {
+            "name": "Hand Size",
+            "desc": 5,
+            "modAmt": 2
+          },
+          {
+            "name": "Proficient",
+            "desc": [
+              "<input id=\"profbox1\" type=\"checkbox\" checked disabled=\"disabled\"/><label for=\"profbox1\">Light Armors</label>",
+              "<input id=\"profbox2\" type=\"checkbox\" /><label for=\"profbox1\">Weapons</label>"
+            ]
+          },
+          {
+            "name": "",
+            "desc": "To evade a bane, you may succeed at a Stealth check with a difficulty equal to 8 (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>5) plus twice the adventure deck number of the current scenario, if any."
+          },
+          {
+            "name": "",
+            "desc": "After you play a spell that has the Arcane trait, you may examine the top card of your deck; if it is a spell (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or an item), you may put it in your hand."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>If you fail a check to acquire a boon on your turn, you may put it on top of the location deck it came from."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>If you are the only character at your location, you may recharge a card to add 1d6 (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>+1) to your combat check."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>You may recharge a card that has the Arcane trait to examine the top card of (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>any character deck or) any location deck. (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>Then you may shuffle the deck)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>If you acquire a card that has the Magic trait during an exploration, you may immediately explore again."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 5,
+          "modAmt": 2
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 4,
+          "modAmt": 3
+        },
+        {
+          "name": "ally",
+          "startAmt": 2,
+          "modAmt": 1
+        },
+        {
+          "name": "blessing",
+          "startAmt": 2,
+          "modAmt": 2
+        }
+      ]
+    },
+    "radillo": {
+      "name": "Radillo",
+      "class": "Female Half-Elf Wizard",
+      "description": "Bounding from one human city to another, Radillo manipulates people with sweet words and subtle promises. Possessing many spells and items that ensorcel the brain, she plays with the thoughts of others for pleasure and power. In many cities, she has contacts whose minds belong fully to her. Whenever she joins a party of adventurers, she immediately divines which companions she expects to take the fall for her.",
+      "favcard": "Spell or Ally",
+      "skills": [
+        {
+          "name": "strength",
+          "diceNo": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "dexterity",
+          "diceNo": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "constitution",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "intelligence",
+          "diceNo": 4,
+          "modAmt": 4,
+          "bonus": [
+            {
+              "name": "Arcane: Intelligence +3"
+            }
+          ]
+        },
+        {
+          "name": "wisdom",
+          "diceNo": 1,
+          "modAmt": 2
+        },
+        {
+          "name": "charisma",
+          "diceNo": 4,
+          "modAmt": 3,
+          "bonus": [
+            {
+              "name": "Diplomacy: Charisma +3"
+            }
+          ]
+        }
+      ],
+      "powers": {
+        "basic" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 1
+          },
+          {
+            "name": "",
+            "desc": "When you play a spell that has the Arcane trait during an encounter, you may examine the bottom card of your deck; if it is a spell (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or an ally), you may put it on top of your deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or add it to your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt to acquire an ally, you may use your Arcane skill in place of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or acquire) a boon that has the Mental trait."
+          }
+        ],
+        "arcane collector" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When you play a spell that has the Arcane trait during an encounter, you may examine the bottom card of your deck; if it is a spell (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or an ally), you may put it on top of your deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or add it to your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt to acquire an ally, you may use your Arcane skill in place of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or acquire) a boon that has the Mental trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>When you acquire (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or another character at your location acquires) a boon, you may draw a card."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you encounter a boon, you may bury a card to exchange it with a random boon of the same type (<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>or a spell) (<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>or an ally) from the box."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>Add the number of buried cards you have to your check to acquire a boon."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>If you fail a check to acquire a boon, you may evade it."
+          }
+        ],
+        "puppet master" : [
+          {
+            "name": "Hand Size",
+            "desc": 6,
+            "modAmt": 2
+          },
+          {
+            "name": "",
+            "desc": "When you play a spell that has the Arcane trait during an encounter, you may examine the bottom card of your deck; if it is a spell (<input id=\"powbox1\" type=\"checkbox\" /><label for=\"powbox1\"></label>or an ally), you may put it on top of your deck (<input id=\"powbox2\" type=\"checkbox\" /><label for=\"powbox2\"></label>or add it to your hand)."
+          },
+          {
+            "name": "",
+            "desc": "When you attempt to acquire an ally, you may use your Arcane skill in place of any listed skill."
+          },
+          {
+            "name": "",
+            "desc": "You automatically succeed at your check to recharge (<input id=\"powbox3\" type=\"checkbox\" /><label for=\"powbox3\"></label>or acquire) a boon that has the Mental trait."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox4\" type=\"checkbox\" /><label for=\"powbox4\"></label>When another character at your location (<input id=\"powbox5\" type=\"checkbox\" /><label for=\"powbox5\"></label>or at any location) fails to acquire a boon, you may banish a card to put the boon in your discard pile."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox6\" type=\"checkbox\" /><label for=\"powbox6\"></label>When you discard an ally to explore your location, you may recharge a random ally from your discard pile (<input id=\"powbox10\" type=\"checkbox\" /><label for=\"powbox10\"></label>or shuffle it into your deck)."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox7\" type=\"checkbox\" /><label for=\"powbox7\"></label>If you play a spell to evade a bane, you may put the bane on top of its deck."
+          },
+          {
+            "name": "",
+            "desc": "<input id=\"powbox8\" type=\"checkbox\" /><label for=\"powbox8\"></label>When any character at your location attempts a check to defeat a monster, you may recharge an ally to reduce the difficulty of that check by 1 (<input id=\"powbox9\" type=\"checkbox\" /><label for=\"powbox9\"></label>2) plus the adventure deck number of the recharged ally, if any."
+          }
+        ]
+      },
+      "cardslist": [
+        {
+          "name": "weapon",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "spell",
+          "startAmt": 7,
+          "modAmt": 3
+        },
+        {
+          "name": "armor",
+          "startAmt": 0,
+          "modAmt": 1
+        },
+        {
+          "name": "item",
+          "startAmt": 2,
+          "modAmt": 2
+        },
+        {
+          "name": "ally",
+          "startAmt": 3,
+          "modAmt": 2
+        },
+        {
+          "name": "blessing",
+          "startAmt": 3,
+          "modAmt": 1
+        }
+      ]
+    }
+  },
+  "cards": [
+    {
+      "name": "Place Expansion Cards Here"
+    }
+  ]
+}
