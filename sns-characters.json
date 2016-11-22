@@ -390,7 +390,7 @@
         },
         "jirelle": {
             "name": "Jirelle",
-            "class": "Female Hlaf-Elf Swashbuckler",
+            "class": "Female Half-Elf Swashbuckler",
             "favcard": "Ally",
             "skills": [
                 {
@@ -411,7 +411,12 @@
                 {
                     "name": "constitution",
                     "diceNo": 2,
-                    "modAmt": 2
+                    "modAmt": 2,
+                    "bonus": [
+                    	{
+	                    	"name": "Fortitude: Constitution +2"
+                    	}
+                    ]
                 },
                 {
                     "name": "intelligence",
